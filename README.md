@@ -1,7 +1,7 @@
 # Optioner.Design — Portfolio
 © 2026 Optioner.Design — All Rights Reserved. AI Generated.
 
-Live site will be: `https://jorcarangan.github.io/optioner-portfolio/`
+Live site will be: `https://jorccarangan.github.io/optioner-portfolio/`
 
 ## What's Inside (Final)
 
@@ -22,7 +22,7 @@ All pages use only your attached purple geometric circle logo (no white space ga
 ### Step 1: Create GitHub account & repo
 1. Go to https://github.com → Sign up / Log in
 2. Click top-right `+` → **New repository**
-3. Name: `optioner-portfolio` (must be exactly this if you want `Jorcarangan.github.io/optioner-portfolio/`)
+3. Name: `optioner-portfolio` (must be exactly this if you want `Jorccarangan.github.io/optioner-portfolio/`)
 4. Set to **Public** (required for free Pages)
 5. Check **Add a README file** → Click **Create repository**
 
@@ -43,7 +43,7 @@ All pages use only your attached purple geometric circle logo (no white space ga
 3. Under **Build and deployment**:
    - Source: **Deploy from a branch**
    - Branch: **main** / **/ (root)** → Save
-4. Wait 1-2 minutes → refresh page → you'll see: "Your site is live at https://jorcarangan.github.io/optioner-portfolio/"
+4. Wait 1-2 minutes → refresh page → you'll see: "Your site is live at https://jorccarangan.github.io/optioner-portfolio/"
 
 ### Step 4: Test
 - Open your live link
