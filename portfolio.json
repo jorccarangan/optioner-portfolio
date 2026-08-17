@@ -77,11 +77,12 @@
     {
       "id": "1XZlZfbdmsyKUPs58PRgSLg7NyIwzt1as",
       "name": "LYF_NICSALT_BB_25MG_mockupbox.jpg",
-      "mimeType": "image/jpeg",
+      "mimeType": "image/jpg",
       "webViewLink": "https://drive.google.com/file/d/1XZlZfbdmsyKUPs58PRgSLg7NyIwzt1as/view",
       "thumbnailLink": "https://drive.google.com/thumbnail?id=1XZlZfbdmsyKUPs58PRgSLg7NyIwzt1as&sz=w600",
       "directLink": "https://drive.google.com/uc?export=view&id=1XZlZfbdmsyKUPs58PRgSLg7NyIwzt1as",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1XZlZfbdmsyKUPs58PRgSLg7NyIwzt1as&sz=w600"
+      "thumbnail": "https://drive.google.com/thumbnail?id=1XZlZfbdmsyKUPs58PRgSLg7NyIwzt1as&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1XZlZfbdmsyKUPs58PRgSLg7NyIwzt1as/preview"
     },
     {
       "id": "1VRKghi70S7aDXxJ6x0e2KFBIViSxT7zR",
@@ -90,7 +91,8 @@
       "webViewLink": "https://drive.google.com/file/d/1VRKghi70S7aDXxJ6x0e2KFBIViSxT7zR/view",
       "thumbnailLink": "https://drive.google.com/thumbnail?id=1VRKghi70S7aDXxJ6x0e2KFBIViSxT7zR&sz=w600",
       "directLink": "https://drive.google.com/uc?export=view&id=1VRKghi70S7aDXxJ6x0e2KFBIViSxT7zR",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1VRKghi70S7aDXxJ6x0e2KFBIViSxT7zR&sz=w600"
+      "thumbnail": "https://drive.google.com/thumbnail?id=1VRKghi70S7aDXxJ6x0e2KFBIViSxT7zR&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1VRKghi70S7aDXxJ6x0e2KFBIViSxT7zR/preview"
     },
     {
       "id": "1KbAXGqzM9nR-5pIUpAPbpG8zCunxnAYg",
@@ -99,51 +101,731 @@
       "webViewLink": "https://drive.google.com/file/d/1KbAXGqzM9nR-5pIUpAPbpG8zCunxnAYg/view",
       "thumbnailLink": "https://drive.google.com/thumbnail?id=1KbAXGqzM9nR-5pIUpAPbpG8zCunxnAYg&sz=w600",
       "directLink": "https://drive.google.com/uc?export=view&id=1KbAXGqzM9nR-5pIUpAPbpG8zCunxnAYg",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1KbAXGqzM9nR-5pIUpAPbpG8zCunxnAYg&sz=w600"
+      "thumbnail": "https://drive.google.com/thumbnail?id=1KbAXGqzM9nR-5pIUpAPbpG8zCunxnAYg&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1KbAXGqzM9nR-5pIUpAPbpG8zCunxnAYg/preview"
     },
     {
       "id": "1LF8NKLRjCV62s1ByLWESiVP0Vy5dha9I",
       "name": "LYF_NICSALT_BB_45MG_mockupbox.jpg",
-      "mimeType": "image/jpeg",
+      "mimeType": "image/jpg",
       "webViewLink": "https://drive.google.com/file/d/1LF8NKLRjCV62s1ByLWESiVP0Vy5dha9I/view",
       "thumbnailLink": "https://drive.google.com/thumbnail?id=1LF8NKLRjCV62s1ByLWESiVP0Vy5dha9I&sz=w600",
       "directLink": "https://drive.google.com/uc?export=view&id=1LF8NKLRjCV62s1ByLWESiVP0Vy5dha9I",
-      "thumbnail": "https://drive.google.com/thumbnail?id=1LF8NKLRjCV62s1ByLWESiVP0Vy5dha9I&sz=w600"
+      "thumbnail": "https://drive.google.com/thumbnail?id=1LF8NKLRjCV62s1ByLWESiVP0Vy5dha9I&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1LF8NKLRjCV62s1ByLWESiVP0Vy5dha9I/preview"
+    },
+    {
+      "id": "1z4_tWWoCuPiZUQx9q4zPcRuvaTu6cJCR",
+      "name": "PureLyf-PME-EX_PEN.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/1z4_tWWoCuPiZUQx9q4zPcRuvaTu6cJCR/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1z4_tWWoCuPiZUQx9q4zPcRuvaTu6cJCR&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1z4_tWWoCuPiZUQx9q4zPcRuvaTu6cJCR",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1z4_tWWoCuPiZUQx9q4zPcRuvaTu6cJCR&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1z4_tWWoCuPiZUQx9q4zPcRuvaTu6cJCR/preview"
+    },
+    {
+      "id": "1H0m7WNm5GOJ3eFIPJLMfd6xx2zkQXTxj",
+      "name": "PureLyf-SN-EX_PEN.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/1H0m7WNm5GOJ3eFIPJLMfd6xx2zkQXTxj/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1H0m7WNm5GOJ3eFIPJLMfd6xx2zkQXTxj&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1H0m7WNm5GOJ3eFIPJLMfd6xx2zkQXTxj",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1H0m7WNm5GOJ3eFIPJLMfd6xx2zkQXTxj&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1H0m7WNm5GOJ3eFIPJLMfd6xx2zkQXTxj/preview"
+    },
+    {
+      "id": "15t0SJEGts3LTHvwzUqoY4m0Yh0gvoSoZ",
+      "name": "PureLyf-BLD-EX_PEN.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/15t0SJEGts3LTHvwzUqoY4m0Yh0gvoSoZ/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=15t0SJEGts3LTHvwzUqoY4m0Yh0gvoSoZ&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=15t0SJEGts3LTHvwzUqoY4m0Yh0gvoSoZ",
+      "thumbnail": "https://drive.google.com/thumbnail?id=15t0SJEGts3LTHvwzUqoY4m0Yh0gvoSoZ&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/15t0SJEGts3LTHvwzUqoY4m0Yh0gvoSoZ/preview"
+    },
+    {
+      "id": "1AtKQ-W1q_3rwdISDIG_LgfPz8kr6OwCY",
+      "name": "PureLyf-SN-EX_PEN.jpg",
+      "mimeType": "image/jpg",
+      "webViewLink": "https://drive.google.com/file/d/1AtKQ-W1q_3rwdISDIG_LgfPz8kr6OwCY/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1AtKQ-W1q_3rwdISDIG_LgfPz8kr6OwCY&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1AtKQ-W1q_3rwdISDIG_LgfPz8kr6OwCY",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1AtKQ-W1q_3rwdISDIG_LgfPz8kr6OwCY&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1AtKQ-W1q_3rwdISDIG_LgfPz8kr6OwCY/preview"
+    },
+    {
+      "id": "14bI-Ksa5_xVYxVkm3PFNF9TDS24X688K",
+      "name": "PureLyf-BLD-EX_PEN.jpg",
+      "mimeType": "image/jpg",
+      "webViewLink": "https://drive.google.com/file/d/14bI-Ksa5_xVYxVkm3PFNF9TDS24X688K/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=14bI-Ksa5_xVYxVkm3PFNF9TDS24X688K&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=14bI-Ksa5_xVYxVkm3PFNF9TDS24X688K",
+      "thumbnail": "https://drive.google.com/thumbnail?id=14bI-Ksa5_xVYxVkm3PFNF9TDS24X688K&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/14bI-Ksa5_xVYxVkm3PFNF9TDS24X688K/preview"
+    },
+    {
+      "id": "1VdkIkzAgXtc0AqngYtPld-38BzdKXvbq",
+      "name": "PureLyf-PME-EX_PEN.jpg",
+      "mimeType": "image/jpg",
+      "webViewLink": "https://drive.google.com/file/d/1VdkIkzAgXtc0AqngYtPld-38BzdKXvbq/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1VdkIkzAgXtc0AqngYtPld-38BzdKXvbq&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1VdkIkzAgXtc0AqngYtPld-38BzdKXvbq",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1VdkIkzAgXtc0AqngYtPld-38BzdKXvbq&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1VdkIkzAgXtc0AqngYtPld-38BzdKXvbq/preview"
     }
   ],
   "Video and Animation": [
     {
-      "id": "video-sample",
-      "name": "Sample Animation Reel.mp4",
+      "id": "1C4-Xz32BiZtMpQJ9lcFK-LuSFSlFVV2M",
+      "name": "146_BSA_Council_Video_R07.mp4",
       "mimeType": "video/mp4",
-      "webViewLink": "#",
-      "thumbnail": "https://picsum.photos/seed/video1/600/600"
+      "webViewLink": "https://drive.google.com/file/d/1C4-Xz32BiZtMpQJ9lcFK-LuSFSlFVV2M/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1C4-Xz32BiZtMpQJ9lcFK-LuSFSlFVV2M&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1C4-Xz32BiZtMpQJ9lcFK-LuSFSlFVV2M",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1C4-Xz32BiZtMpQJ9lcFK-LuSFSlFVV2M&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1C4-Xz32BiZtMpQJ9lcFK-LuSFSlFVV2M/preview"
+    },
+    {
+      "id": "1opcFHlsoI7UBW88zRvA0DOJQjrhjoLq6",
+      "name": "Scouting_Council_R11_v02_1080p_071925.mp4",
+      "mimeType": "video/mp4",
+      "webViewLink": "https://drive.google.com/file/d/1opcFHlsoI7UBW88zRvA0DOJQjrhjoLq6/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1opcFHlsoI7UBW88zRvA0DOJQjrhjoLq6&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1opcFHlsoI7UBW88zRvA0DOJQjrhjoLq6",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1opcFHlsoI7UBW88zRvA0DOJQjrhjoLq6&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1opcFHlsoI7UBW88zRvA0DOJQjrhjoLq6/preview"
+    },
+    {
+      "id": "18IYem3afZratUSfOc3I419L3to8pxURI",
+      "name": "15_Innova_5610_Meta_AdVideo_R02_022525.mp4",
+      "mimeType": "video/mp4",
+      "webViewLink": "https://drive.google.com/file/d/18IYem3afZratUSfOc3I419L3to8pxURI/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=18IYem3afZratUSfOc3I419L3to8pxURI&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=18IYem3afZratUSfOc3I419L3to8pxURI",
+      "thumbnail": "https://drive.google.com/thumbnail?id=18IYem3afZratUSfOc3I419L3to8pxURI&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/18IYem3afZratUSfOc3I419L3to8pxURI/preview"
+    },
+    {
+      "id": "1hNBXm25LLHp5Cffj85DELekrrFMIeXUz",
+      "name": "10_1000_Dongle_Video_R02.mp4",
+      "mimeType": "video/mp4",
+      "webViewLink": "https://drive.google.com/file/d/1hNBXm25LLHp5Cffj85DELekrrFMIeXUz/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1hNBXm25LLHp5Cffj85DELekrrFMIeXUz&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1hNBXm25LLHp5Cffj85DELekrrFMIeXUz",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1hNBXm25LLHp5Cffj85DELekrrFMIeXUz&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1hNBXm25LLHp5Cffj85DELekrrFMIeXUz/preview"
+    },
+    {
+      "id": "1PTjuZQXXqXrzQZXqQj1bNtdovedm0twe",
+      "name": "IMVU_Help_Center_Intro_Male_R10b_091814.mp4",
+      "mimeType": "video/mp4",
+      "webViewLink": "https://drive.google.com/file/d/1PTjuZQXXqXrzQZXqQj1bNtdovedm0twe/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1PTjuZQXXqXrzQZXqQj1bNtdovedm0twe&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1PTjuZQXXqXrzQZXqQj1bNtdovedm0twe",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1PTjuZQXXqXrzQZXqQj1bNtdovedm0twe&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1PTjuZQXXqXrzQZXqQj1bNtdovedm0twe/preview"
     }
   ],
-  "Social Media Posting": [],
-  "Amazon Pages": [],
-  "UI/UX": [],
-  "AI Branding": [
+  "Social Media Posting": [
     {
-      "id": "1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO",
-      "name": "Milo-Flow-Character-Reference-Optimized.html",
-      "mimeType": "text/html",
-      "thumbnailLink": "https://drive.google.com/thumbnail?id=1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO&sz=w600",
-      "directLink": "https://drive.google.com/file/d/1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO/view",
-      "webViewLink": "https://drive.google.com/file/d/1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO/view?usp=sharing",
-      "previewLink": "https://drive.google.com/file/d/1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO/preview"
+      "id": "1-W2Flb5ajadQvGoim-wVpS7Uhipli_Rr",
+      "name": "4th_of_July_Newsletter_01_of_05_062823.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1-W2Flb5ajadQvGoim-wVpS7Uhipli_Rr/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1-W2Flb5ajadQvGoim-wVpS7Uhipli_Rr&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1-W2Flb5ajadQvGoim-wVpS7Uhipli_Rr",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1-W2Flb5ajadQvGoim-wVpS7Uhipli_Rr&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1-W2Flb5ajadQvGoim-wVpS7Uhipli_Rr/preview"
     },
+    {
+      "id": "1vMMIFWepLcmo2AsQpXIxLa1I30WGj3ar",
+      "name": "Engagement Rings Spotlight_Newsletter_01_of_05_062423.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1vMMIFWepLcmo2AsQpXIxLa1I30WGj3ar/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1vMMIFWepLcmo2AsQpXIxLa1I30WGj3ar&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1vMMIFWepLcmo2AsQpXIxLa1I30WGj3ar",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1vMMIFWepLcmo2AsQpXIxLa1I30WGj3ar&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1vMMIFWepLcmo2AsQpXIxLa1I30WGj3ar/preview"
+    },
+    {
+      "id": "1OS3_ysQFDTtX8FW9bUP6zLysoQqf0OvN",
+      "name": "Engagement Rings Spotlight_Newsletter_05_of_05_062423.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1OS3_ysQFDTtX8FW9bUP6zLysoQqf0OvN/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1OS3_ysQFDTtX8FW9bUP6zLysoQqf0OvN&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1OS3_ysQFDTtX8FW9bUP6zLysoQqf0OvN",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1OS3_ysQFDTtX8FW9bUP6zLysoQqf0OvN&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1OS3_ysQFDTtX8FW9bUP6zLysoQqf0OvN/preview"
+    },
+    {
+      "id": "1f18dpwXFVkf67yTbCPeBtDTszmm65ATq",
+      "name": "FB_IG_21_Off_Swarovski_Engagement_1080x1080_03.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1f18dpwXFVkf67yTbCPeBtDTszmm65ATq/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1f18dpwXFVkf67yTbCPeBtDTszmm65ATq&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1f18dpwXFVkf67yTbCPeBtDTszmm65ATq",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1f18dpwXFVkf67yTbCPeBtDTszmm65ATq&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1f18dpwXFVkf67yTbCPeBtDTszmm65ATq/preview"
+    },
+    {
+      "id": "1P0pszpstyUGRg-WBWUj8D3fK3uux28QT",
+      "name": "FB_IG_21_Off_Swarovski_Engagement_1080x1080_02.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1P0pszpstyUGRg-WBWUj8D3fK3uux28QT/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1P0pszpstyUGRg-WBWUj8D3fK3uux28QT&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1P0pszpstyUGRg-WBWUj8D3fK3uux28QT",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1P0pszpstyUGRg-WBWUj8D3fK3uux28QT&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1P0pszpstyUGRg-WBWUj8D3fK3uux28QT/preview"
+    },
+    {
+      "id": "1e1-D3WIxwoC487M55ZYTbMgyZ29Jkkgp",
+      "name": "FB_IG_21_Off_Swarovski_Engagement_1080x1080_01.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1e1-D3WIxwoC487M55ZYTbMgyZ29Jkkgp/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1e1-D3WIxwoC487M55ZYTbMgyZ29Jkkgp&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1e1-D3WIxwoC487M55ZYTbMgyZ29Jkkgp",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1e1-D3WIxwoC487M55ZYTbMgyZ29Jkkgp&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1e1-D3WIxwoC487M55ZYTbMgyZ29Jkkgp/preview"
+    },
+    {
+      "id": "1dMGblkUpOUGWRfCaJ3elYuf_cs1giFXu",
+      "name": "FB_IG_21_Off_Swarovski_Engagement_1080x1080_06.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1dMGblkUpOUGWRfCaJ3elYuf_cs1giFXu/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1dMGblkUpOUGWRfCaJ3elYuf_cs1giFXu&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1dMGblkUpOUGWRfCaJ3elYuf_cs1giFXu",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1dMGblkUpOUGWRfCaJ3elYuf_cs1giFXu&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1dMGblkUpOUGWRfCaJ3elYuf_cs1giFXu/preview"
+    },
+    {
+      "id": "1ZABhBZsae2KSGPD8yh-ejuaQmOwXQRkO",
+      "name": "FB_IG_21_Off_Swarovski_Engagement_1080x1080_04.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1ZABhBZsae2KSGPD8yh-ejuaQmOwXQRkO/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1ZABhBZsae2KSGPD8yh-ejuaQmOwXQRkO&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1ZABhBZsae2KSGPD8yh-ejuaQmOwXQRkO",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1ZABhBZsae2KSGPD8yh-ejuaQmOwXQRkO&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1ZABhBZsae2KSGPD8yh-ejuaQmOwXQRkO/preview"
+    },
+    {
+      "id": "1GHQPL49x27-SRht2bruliOjNGjjSW09B",
+      "name": "FB_IG_21_Off_Swarovski_Engagement_1080x1080_txt.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1GHQPL49x27-SRht2bruliOjNGjjSW09B/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1GHQPL49x27-SRht2bruliOjNGjjSW09B&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1GHQPL49x27-SRht2bruliOjNGjjSW09B",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1GHQPL49x27-SRht2bruliOjNGjjSW09B&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1GHQPL49x27-SRht2bruliOjNGjjSW09B/preview"
+    },
+    {
+      "id": "12seMhpFc7JzqtLk4-aQkktu2q_wY6aHm",
+      "name": "FB_IG_21_Off_Swarovski_Engagement_1080x1080_05.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/12seMhpFc7JzqtLk4-aQkktu2q_wY6aHm/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=12seMhpFc7JzqtLk4-aQkktu2q_wY6aHm&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=12seMhpFc7JzqtLk4-aQkktu2q_wY6aHm",
+      "thumbnail": "https://drive.google.com/thumbnail?id=12seMhpFc7JzqtLk4-aQkktu2q_wY6aHm&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/12seMhpFc7JzqtLk4-aQkktu2q_wY6aHm/preview"
+    },
+    {
+      "id": "1fJqNQvozH_y0wR1suxMA7dNUgs3BCnbX",
+      "name": "FB_IG_21_Off_Swarovski_Engagement_1080x1080_07.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1fJqNQvozH_y0wR1suxMA7dNUgs3BCnbX/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1fJqNQvozH_y0wR1suxMA7dNUgs3BCnbX&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1fJqNQvozH_y0wR1suxMA7dNUgs3BCnbX",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1fJqNQvozH_y0wR1suxMA7dNUgs3BCnbX&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1fJqNQvozH_y0wR1suxMA7dNUgs3BCnbX/preview"
+    },
+    {
+      "id": "1o9bwK1DmDwNztnu_5wgvMG3R_twpwtyf",
+      "name": "FB_IG_21_Off_Swarovski_Engagement_1200x628_txt.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1o9bwK1DmDwNztnu_5wgvMG3R_twpwtyf/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1o9bwK1DmDwNztnu_5wgvMG3R_twpwtyf&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1o9bwK1DmDwNztnu_5wgvMG3R_twpwtyf",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1o9bwK1DmDwNztnu_5wgvMG3R_twpwtyf&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1o9bwK1DmDwNztnu_5wgvMG3R_twpwtyf/preview"
+    },
+    {
+      "id": "1XivwCSbuiFrXub3TgMuplMgXy0zpYFhe",
+      "name": "GD-118_14KCaratGoldInlay_META_1_1_03_R02_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1XivwCSbuiFrXub3TgMuplMgXy0zpYFhe/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1XivwCSbuiFrXub3TgMuplMgXy0zpYFhe&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1XivwCSbuiFrXub3TgMuplMgXy0zpYFhe",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1XivwCSbuiFrXub3TgMuplMgXy0zpYFhe&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1XivwCSbuiFrXub3TgMuplMgXy0zpYFhe/preview"
+    },
+    {
+      "id": "1gL3fXNDDYfJRnPx2yQsl1bueWk-GXqP0",
+      "name": "GD-118_14KCaratGoldInlay_META_1_1_01_R02_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1gL3fXNDDYfJRnPx2yQsl1bueWk-GXqP0/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1gL3fXNDDYfJRnPx2yQsl1bueWk-GXqP0&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1gL3fXNDDYfJRnPx2yQsl1bueWk-GXqP0",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1gL3fXNDDYfJRnPx2yQsl1bueWk-GXqP0&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1gL3fXNDDYfJRnPx2yQsl1bueWk-GXqP0/preview"
+    },
+    {
+      "id": "1mOey-fylBHglw7UtmXU6poU-TF-QaDsr",
+      "name": "GD-118_14KCaratGoldInlay_META_1_1_02_R02_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1mOey-fylBHglw7UtmXU6poU-TF-QaDsr/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1mOey-fylBHglw7UtmXU6poU-TF-QaDsr&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1mOey-fylBHglw7UtmXU6poU-TF-QaDsr",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1mOey-fylBHglw7UtmXU6poU-TF-QaDsr&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1mOey-fylBHglw7UtmXU6poU-TF-QaDsr/preview"
+    },
+    {
+      "id": "1ZTjqpZeHLRjriIo7WjNhJfvxsddpRigy",
+      "name": "GD-118_14KCaratGoldInlay_GBA_1200x1200_03_R02_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1ZTjqpZeHLRjriIo7WjNhJfvxsddpRigy/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1ZTjqpZeHLRjriIo7WjNhJfvxsddpRigy&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1ZTjqpZeHLRjriIo7WjNhJfvxsddpRigy",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1ZTjqpZeHLRjriIo7WjNhJfvxsddpRigy&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1ZTjqpZeHLRjriIo7WjNhJfvxsddpRigy/preview"
+    },
+    {
+      "id": "1W9g0o4tOKdnUxd4BVJKuM7TOEEichZoq",
+      "name": "GD-118_14KCaratGoldInlay_GBA_1200x1200_01_R02_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1W9g0o4tOKdnUxd4BVJKuM7TOEEichZoq/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1W9g0o4tOKdnUxd4BVJKuM7TOEEichZoq&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1W9g0o4tOKdnUxd4BVJKuM7TOEEichZoq",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1W9g0o4tOKdnUxd4BVJKuM7TOEEichZoq&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1W9g0o4tOKdnUxd4BVJKuM7TOEEichZoq/preview"
+    },
+    {
+      "id": "14Ae-KGnOffkoCg-PfmQfHsdwR-fDrn4E",
+      "name": "GD-118_14KCaratGoldInlay_GBA_1200x1200_02_R02_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/14Ae-KGnOffkoCg-PfmQfHsdwR-fDrn4E/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=14Ae-KGnOffkoCg-PfmQfHsdwR-fDrn4E&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=14Ae-KGnOffkoCg-PfmQfHsdwR-fDrn4E",
+      "thumbnail": "https://drive.google.com/thumbnail?id=14Ae-KGnOffkoCg-PfmQfHsdwR-fDrn4E&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/14Ae-KGnOffkoCg-PfmQfHsdwR-fDrn4E/preview"
+    },
+    {
+      "id": "1tZ9qslMdpInVVAoeM9TQz_i6XuIYk9L4",
+      "name": "GD-118_14KCaratGoldInlay_GBA_1200x628_03_R02_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1tZ9qslMdpInVVAoeM9TQz_i6XuIYk9L4/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1tZ9qslMdpInVVAoeM9TQz_i6XuIYk9L4&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1tZ9qslMdpInVVAoeM9TQz_i6XuIYk9L4",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1tZ9qslMdpInVVAoeM9TQz_i6XuIYk9L4&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1tZ9qslMdpInVVAoeM9TQz_i6XuIYk9L4/preview"
+    },
+    {
+      "id": "1YGSCh4Y1j4K25UxNIZZlIAGyYeCchP6t",
+      "name": "GD-118_14KCaratGoldInlay_GBA_1200x628_02_R02_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1YGSCh4Y1j4K25UxNIZZlIAGyYeCchP6t/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1YGSCh4Y1j4K25UxNIZZlIAGyYeCchP6t&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1YGSCh4Y1j4K25UxNIZZlIAGyYeCchP6t",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1YGSCh4Y1j4K25UxNIZZlIAGyYeCchP6t&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1YGSCh4Y1j4K25UxNIZZlIAGyYeCchP6t/preview"
+    },
+    {
+      "id": "17OnZ1bAH-m8NTmcH9kJhKgH2coDIILbG",
+      "name": "GD-118_14KCaratGoldInlay_GBA_1200x628_01_R02_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/17OnZ1bAH-m8NTmcH9kJhKgH2coDIILbG/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=17OnZ1bAH-m8NTmcH9kJhKgH2coDIILbG&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=17OnZ1bAH-m8NTmcH9kJhKgH2coDIILbG",
+      "thumbnail": "https://drive.google.com/thumbnail?id=17OnZ1bAH-m8NTmcH9kJhKgH2coDIILbG&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/17OnZ1bAH-m8NTmcH9kJhKgH2coDIILbG/preview"
+    },
+    {
+      "id": "1hnC1mVHT1VzKTdsQW_UbbECopEEZntcv",
+      "name": "GD-118_BTitanium_META_1_1_03_R04_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1hnC1mVHT1VzKTdsQW_UbbECopEEZntcv/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1hnC1mVHT1VzKTdsQW_UbbECopEEZntcv&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1hnC1mVHT1VzKTdsQW_UbbECopEEZntcv",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1hnC1mVHT1VzKTdsQW_UbbECopEEZntcv&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1hnC1mVHT1VzKTdsQW_UbbECopEEZntcv/preview"
+    },
+    {
+      "id": "1sieLz9TZxSi2mBRkzMCG_IoFHDbznq4K",
+      "name": "GD-118_BTitanium_META_1_1_01_R04_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1sieLz9TZxSi2mBRkzMCG_IoFHDbznq4K/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1sieLz9TZxSi2mBRkzMCG_IoFHDbznq4K&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1sieLz9TZxSi2mBRkzMCG_IoFHDbznq4K",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1sieLz9TZxSi2mBRkzMCG_IoFHDbznq4K&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1sieLz9TZxSi2mBRkzMCG_IoFHDbznq4K/preview"
+    },
+    {
+      "id": "11mHw8mg5rbarZLIiI2I53Hia2HzLjKLC",
+      "name": "GD-118_BTitanium_META_1_1_02_R04_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/11mHw8mg5rbarZLIiI2I53Hia2HzLjKLC/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=11mHw8mg5rbarZLIiI2I53Hia2HzLjKLC&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=11mHw8mg5rbarZLIiI2I53Hia2HzLjKLC",
+      "thumbnail": "https://drive.google.com/thumbnail?id=11mHw8mg5rbarZLIiI2I53Hia2HzLjKLC&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/11mHw8mg5rbarZLIiI2I53Hia2HzLjKLC/preview"
+    },
+    {
+      "id": "1P6NvRL-YjFLsXw4ds4CJV31XFrPb35fa",
+      "name": "GD-118_BTitanium_GBA_1200x1200_03_R04_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1P6NvRL-YjFLsXw4ds4CJV31XFrPb35fa/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1P6NvRL-YjFLsXw4ds4CJV31XFrPb35fa&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1P6NvRL-YjFLsXw4ds4CJV31XFrPb35fa",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1P6NvRL-YjFLsXw4ds4CJV31XFrPb35fa&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1P6NvRL-YjFLsXw4ds4CJV31XFrPb35fa/preview"
+    },
+    {
+      "id": "19YuS3sY6cezYsWZUgUifDnd1xTMEUX9I",
+      "name": "GD-118_BTitanium_GBA_1200x1200_02_R04_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/19YuS3sY6cezYsWZUgUifDnd1xTMEUX9I/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=19YuS3sY6cezYsWZUgUifDnd1xTMEUX9I&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=19YuS3sY6cezYsWZUgUifDnd1xTMEUX9I",
+      "thumbnail": "https://drive.google.com/thumbnail?id=19YuS3sY6cezYsWZUgUifDnd1xTMEUX9I&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/19YuS3sY6cezYsWZUgUifDnd1xTMEUX9I/preview"
+    },
+    {
+      "id": "14b8SA3wuV82Wbz5gwnZdysPmnjdVeMUt",
+      "name": "GD-118_BTitanium_GBA_1200x1200_01_R04_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/14b8SA3wuV82Wbz5gwnZdysPmnjdVeMUt/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=14b8SA3wuV82Wbz5gwnZdysPmnjdVeMUt&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=14b8SA3wuV82Wbz5gwnZdysPmnjdVeMUt",
+      "thumbnail": "https://drive.google.com/thumbnail?id=14b8SA3wuV82Wbz5gwnZdysPmnjdVeMUt&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/14b8SA3wuV82Wbz5gwnZdysPmnjdVeMUt/preview"
+    },
+    {
+      "id": "14eFAxvaRbZu8h6HA4sseIEoRQF1XNgHf",
+      "name": "GD-118_BTitanium_GBA_1200x628_01_R04_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/14eFAxvaRbZu8h6HA4sseIEoRQF1XNgHf/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=14eFAxvaRbZu8h6HA4sseIEoRQF1XNgHf&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=14eFAxvaRbZu8h6HA4sseIEoRQF1XNgHf",
+      "thumbnail": "https://drive.google.com/thumbnail?id=14eFAxvaRbZu8h6HA4sseIEoRQF1XNgHf&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/14eFAxvaRbZu8h6HA4sseIEoRQF1XNgHf/preview"
+    },
+    {
+      "id": "1XhWb2wWyEXVkeCErflSTb0h6N57ZzWRZ",
+      "name": "GD-118_BTitanium_GBA_1200x628_03_R04_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1XhWb2wWyEXVkeCErflSTb0h6N57ZzWRZ/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1XhWb2wWyEXVkeCErflSTb0h6N57ZzWRZ&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1XhWb2wWyEXVkeCErflSTb0h6N57ZzWRZ",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1XhWb2wWyEXVkeCErflSTb0h6N57ZzWRZ&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1XhWb2wWyEXVkeCErflSTb0h6N57ZzWRZ/preview"
+    },
+    {
+      "id": "1W-JuFiUftiQvAV9YwOU8c4pnoWpAz2mR",
+      "name": "GD-118_BTitanium_GBA_1200x628_02_R04_051224.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1W-JuFiUftiQvAV9YwOU8c4pnoWpAz2mR/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1W-JuFiUftiQvAV9YwOU8c4pnoWpAz2mR&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1W-JuFiUftiQvAV9YwOU8c4pnoWpAz2mR",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1W-JuFiUftiQvAV9YwOU8c4pnoWpAz2mR&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1W-JuFiUftiQvAV9YwOU8c4pnoWpAz2mR/preview"
+    },
+    {
+      "id": "1qJUWMxZC2e2ZUc3gEG3TBVO1-1GtEdun",
+      "name": "GD-118_MatchingWedding_META_1_1_01_R01_041424.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1qJUWMxZC2e2ZUc3gEG3TBVO1-1GtEdun/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1qJUWMxZC2e2ZUc3gEG3TBVO1-1GtEdun&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1qJUWMxZC2e2ZUc3gEG3TBVO1-1GtEdun",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1qJUWMxZC2e2ZUc3gEG3TBVO1-1GtEdun&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1qJUWMxZC2e2ZUc3gEG3TBVO1-1GtEdun/preview"
+    },
+    {
+      "id": "1sdNdiyieigtoOL_7bIPXtGNY2ei_ZHBf",
+      "name": "GD-118_MatchingWedding_META_1_1_02_R01_041424.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1sdNdiyieigtoOL_7bIPXtGNY2ei_ZHBf/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1sdNdiyieigtoOL_7bIPXtGNY2ei_ZHBf&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1sdNdiyieigtoOL_7bIPXtGNY2ei_ZHBf",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1sdNdiyieigtoOL_7bIPXtGNY2ei_ZHBf&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1sdNdiyieigtoOL_7bIPXtGNY2ei_ZHBf/preview"
+    },
+    {
+      "id": "1PGAckVkCEgYoAEWgvuc7jhIs11iEjxLM",
+      "name": "GD-118_MatchingWedding_META_1_1_03_R01_041424.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1PGAckVkCEgYoAEWgvuc7jhIs11iEjxLM/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1PGAckVkCEgYoAEWgvuc7jhIs11iEjxLM&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1PGAckVkCEgYoAEWgvuc7jhIs11iEjxLM",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1PGAckVkCEgYoAEWgvuc7jhIs11iEjxLM&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1PGAckVkCEgYoAEWgvuc7jhIs11iEjxLM/preview"
+    },
+    {
+      "id": "1vxjdHrobthLDhSXO9A-BFaRtYThQkm27",
+      "name": "GD-118_MatchingWedding_GBA_1200x1200_02_R01_041424.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1vxjdHrobthLDhSXO9A-BFaRtYThQkm27/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1vxjdHrobthLDhSXO9A-BFaRtYThQkm27&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1vxjdHrobthLDhSXO9A-BFaRtYThQkm27",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1vxjdHrobthLDhSXO9A-BFaRtYThQkm27&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1vxjdHrobthLDhSXO9A-BFaRtYThQkm27/preview"
+    },
+    {
+      "id": "1ECi7cNEcofrCm0tmR6rlxWon8Ld0e9o1",
+      "name": "GD-118_MatchingWedding_GBA_1200x1200_03_R01_041424.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1ECi7cNEcofrCm0tmR6rlxWon8Ld0e9o1/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1ECi7cNEcofrCm0tmR6rlxWon8Ld0e9o1&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1ECi7cNEcofrCm0tmR6rlxWon8Ld0e9o1",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1ECi7cNEcofrCm0tmR6rlxWon8Ld0e9o1&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1ECi7cNEcofrCm0tmR6rlxWon8Ld0e9o1/preview"
+    },
+    {
+      "id": "1EbuVoMLVw1Y-DZ3C-UHwjUXQxSZasPgb",
+      "name": "GD-118_MatchingWedding_GBA_1200x1200_01_R01_041424.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1EbuVoMLVw1Y-DZ3C-UHwjUXQxSZasPgb/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1EbuVoMLVw1Y-DZ3C-UHwjUXQxSZasPgb&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1EbuVoMLVw1Y-DZ3C-UHwjUXQxSZasPgb",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1EbuVoMLVw1Y-DZ3C-UHwjUXQxSZasPgb&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1EbuVoMLVw1Y-DZ3C-UHwjUXQxSZasPgb/preview"
+    },
+    {
+      "id": "1jVBXrY-3AVtQ-U2wa5bwpyIEvc6mVRz3",
+      "name": "GD-118_MatchingWedding_GBA_1200x628_02_R01_041424.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1jVBXrY-3AVtQ-U2wa5bwpyIEvc6mVRz3/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1jVBXrY-3AVtQ-U2wa5bwpyIEvc6mVRz3&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1jVBXrY-3AVtQ-U2wa5bwpyIEvc6mVRz3",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1jVBXrY-3AVtQ-U2wa5bwpyIEvc6mVRz3&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1jVBXrY-3AVtQ-U2wa5bwpyIEvc6mVRz3/preview"
+    },
+    {
+      "id": "1XHI78uCjQwR-83D7g_O-YGBwMJP5tHqv",
+      "name": "GD-118_MatchingWedding_GBA_1200x628_03_R01_041424.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1XHI78uCjQwR-83D7g_O-YGBwMJP5tHqv/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1XHI78uCjQwR-83D7g_O-YGBwMJP5tHqv&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1XHI78uCjQwR-83D7g_O-YGBwMJP5tHqv",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1XHI78uCjQwR-83D7g_O-YGBwMJP5tHqv&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1XHI78uCjQwR-83D7g_O-YGBwMJP5tHqv/preview"
+    },
+    {
+      "id": "1sDKmhQBsqUuV7Ui7jkMaV54Qk-1IKYhR",
+      "name": "GD-118_MatchingWedding_GBA_1200x628_01_R01_041424.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1sDKmhQBsqUuV7Ui7jkMaV54Qk-1IKYhR/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1sDKmhQBsqUuV7Ui7jkMaV54Qk-1IKYhR&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1sDKmhQBsqUuV7Ui7jkMaV54Qk-1IKYhR",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1sDKmhQBsqUuV7Ui7jkMaV54Qk-1IKYhR&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1sDKmhQBsqUuV7Ui7jkMaV54Qk-1IKYhR/preview"
+    }
+  ],
+  "Amazon Pages": [
+    {
+      "id": "1_FTRbJqR6QQm-uu2_MSoRb5LRDoLdZkU",
+      "name": "SA_Mobile.jpeg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1_FTRbJqR6QQm-uu2_MSoRb5LRDoLdZkU/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1_FTRbJqR6QQm-uu2_MSoRb5LRDoLdZkU&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1_FTRbJqR6QQm-uu2_MSoRb5LRDoLdZkU",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1_FTRbJqR6QQm-uu2_MSoRb5LRDoLdZkU&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1_FTRbJqR6QQm-uu2_MSoRb5LRDoLdZkU/preview"
+    },
+    {
+      "id": "1CeBIdtiuyZIs1tqtdPmiQWk1bd7BDwq3",
+      "name": "SA_Desktop.jpeg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1CeBIdtiuyZIs1tqtdPmiQWk1bd7BDwq3/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1CeBIdtiuyZIs1tqtdPmiQWk1bd7BDwq3&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1CeBIdtiuyZIs1tqtdPmiQWk1bd7BDwq3",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1CeBIdtiuyZIs1tqtdPmiQWk1bd7BDwq3&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1CeBIdtiuyZIs1tqtdPmiQWk1bd7BDwq3/preview"
+    },
+    {
+      "id": "1ZyPAV8LdJycHEJj1duIbSgfJcQY5SCU8",
+      "name": "00_01_B0DSYVV5MH_v01_D_1464x600_R02_061125.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1ZyPAV8LdJycHEJj1duIbSgfJcQY5SCU8/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1ZyPAV8LdJycHEJj1duIbSgfJcQY5SCU8&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1ZyPAV8LdJycHEJj1duIbSgfJcQY5SCU8",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1ZyPAV8LdJycHEJj1duIbSgfJcQY5SCU8&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1ZyPAV8LdJycHEJj1duIbSgfJcQY5SCU8/preview"
+    },
+    {
+      "id": "1otCWAeKNuI2B6AwQY0qFmZFlZm-oZSm1",
+      "name": "00_03_B0DSYVV5MH_v01_D_1464x600_R02_061125.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1otCWAeKNuI2B6AwQY0qFmZFlZm-oZSm1/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1otCWAeKNuI2B6AwQY0qFmZFlZm-oZSm1&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1otCWAeKNuI2B6AwQY0qFmZFlZm-oZSm1",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1otCWAeKNuI2B6AwQY0qFmZFlZm-oZSm1&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1otCWAeKNuI2B6AwQY0qFmZFlZm-oZSm1/preview"
+    },
+    {
+      "id": "1QGa-7HeZ_f-_4CCsTaG-axfvQI6_ZxOi",
+      "name": "00_04_B0DSYVV5MH_v01_D_1464x600_R02_061125.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1QGa-7HeZ_f-_4CCsTaG-axfvQI6_ZxOi/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1QGa-7HeZ_f-_4CCsTaG-axfvQI6_ZxOi&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1QGa-7HeZ_f-_4CCsTaG-axfvQI6_ZxOi",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1QGa-7HeZ_f-_4CCsTaG-axfvQI6_ZxOi&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1QGa-7HeZ_f-_4CCsTaG-axfvQI6_ZxOi/preview"
+    },
+    {
+      "id": "1fkI9tBW28sGG_eKVDc1X_QJupKtoRNXF",
+      "name": "00_02_B0DSYVV5MH_v01_D_1464x600_R02_061125.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1fkI9tBW28sGG_eKVDc1X_QJupKtoRNXF/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1fkI9tBW28sGG_eKVDc1X_QJupKtoRNXF&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1fkI9tBW28sGG_eKVDc1X_QJupKtoRNXF",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1fkI9tBW28sGG_eKVDc1X_QJupKtoRNXF&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1fkI9tBW28sGG_eKVDc1X_QJupKtoRNXF/preview"
+    },
+    {
+      "id": "1OSEJ3Zldp8dhVeDC1vloxnKO1W5piUbN",
+      "name": "01_B0DSYVV5MH_v01_D_1464x600_R02_061125.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1OSEJ3Zldp8dhVeDC1vloxnKO1W5piUbN/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1OSEJ3Zldp8dhVeDC1vloxnKO1W5piUbN&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1OSEJ3Zldp8dhVeDC1vloxnKO1W5piUbN",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1OSEJ3Zldp8dhVeDC1vloxnKO1W5piUbN&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1OSEJ3Zldp8dhVeDC1vloxnKO1W5piUbN/preview"
+    },
+    {
+      "id": "1Mg4poqZiYfGidvHbyXSldY1QOt0Z6rer",
+      "name": "02_B0DSYVV5MH_v01_D_1464x600_R02_061125.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1Mg4poqZiYfGidvHbyXSldY1QOt0Z6rer/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1Mg4poqZiYfGidvHbyXSldY1QOt0Z6rer&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1Mg4poqZiYfGidvHbyXSldY1QOt0Z6rer",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1Mg4poqZiYfGidvHbyXSldY1QOt0Z6rer&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1Mg4poqZiYfGidvHbyXSldY1QOt0Z6rer/preview"
+    }
+  ],
+  "UI/UX": [
+    {
+      "id": "1RFX3kq3KRXWgXcZRQP0kfXjqGQqYR4Jn",
+      "name": "CWS_Website_ver-3.0 (4).pdf",
+      "mimeType": "application/pdf",
+      "webViewLink": "https://drive.google.com/file/d/1RFX3kq3KRXWgXcZRQP0kfXjqGQqYR4Jn/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1RFX3kq3KRXWgXcZRQP0kfXjqGQqYR4Jn&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1RFX3kq3KRXWgXcZRQP0kfXjqGQqYR4Jn",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1RFX3kq3KRXWgXcZRQP0kfXjqGQqYR4Jn&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1RFX3kq3KRXWgXcZRQP0kfXjqGQqYR4Jn/preview"
+    },
+    {
+      "id": "1ekbLO8qPkGwvAiVVsr5mxR3kefanJ34r",
+      "name": "Product_Page.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1ekbLO8qPkGwvAiVVsr5mxR3kefanJ34r/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1ekbLO8qPkGwvAiVVsr5mxR3kefanJ34r&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1ekbLO8qPkGwvAiVVsr5mxR3kefanJ34r",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1ekbLO8qPkGwvAiVVsr5mxR3kefanJ34r&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1ekbLO8qPkGwvAiVVsr5mxR3kefanJ34r/preview"
+    },
+    {
+      "id": "1imdy22YrAjtkM6hTF5mBz4BcA7GDg5JE",
+      "name": "Main_Page.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1imdy22YrAjtkM6hTF5mBz4BcA7GDg5JE/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1imdy22YrAjtkM6hTF5mBz4BcA7GDg5JE&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1imdy22YrAjtkM6hTF5mBz4BcA7GDg5JE",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1imdy22YrAjtkM6hTF5mBz4BcA7GDg5JE&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1imdy22YrAjtkM6hTF5mBz4BcA7GDg5JE/preview"
+    },
+    {
+      "id": "1ySyoEVqhT9IqwPw8VL04S5PHRS660won",
+      "name": "slatherbutta.com.02.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1ySyoEVqhT9IqwPw8VL04S5PHRS660won/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1ySyoEVqhT9IqwPw8VL04S5PHRS660won&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1ySyoEVqhT9IqwPw8VL04S5PHRS660won",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1ySyoEVqhT9IqwPw8VL04S5PHRS660won&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1ySyoEVqhT9IqwPw8VL04S5PHRS660won/preview"
+    },
+    {
+      "id": "1YfIqq2ddk7Hd7NhxUFDrlB8vge3n_e4-",
+      "name": "slatherbutta.com_01.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/1YfIqq2ddk7Hd7NhxUFDrlB8vge3n_e4-/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1YfIqq2ddk7Hd7NhxUFDrlB8vge3n_e4-&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1YfIqq2ddk7Hd7NhxUFDrlB8vge3n_e4-",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1YfIqq2ddk7Hd7NhxUFDrlB8vge3n_e4-&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1YfIqq2ddk7Hd7NhxUFDrlB8vge3n_e4-/preview"
+    }
+  ],
+  "AI Branding": [
     {
       "id": "1Cs_YtCjvY-Oxrdg-y0gJGVb2srGmCFK4",
       "name": "Kip-360-Character-Sheet-Optimized.html",
       "mimeType": "text/html",
+      "webViewLink": "https://drive.google.com/file/d/1Cs_YtCjvY-Oxrdg-y0gJGVb2srGmCFK4/view",
       "thumbnailLink": "https://drive.google.com/thumbnail?id=1Cs_YtCjvY-Oxrdg-y0gJGVb2srGmCFK4&sz=w600",
-      "directLink": "https://drive.google.com/file/d/1Cs_YtCjvY-Oxrdg-y0gJGVb2srGmCFK4/view",
-      "webViewLink": "https://drive.google.com/file/d/1Cs_YtCjvY-Oxrdg-y0gJGVb2srGmCFK4/view?usp=sharing",
+      "directLink": "https://drive.google.com/uc?export=view&id=1Cs_YtCjvY-Oxrdg-y0gJGVb2srGmCFK4",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1Cs_YtCjvY-Oxrdg-y0gJGVb2srGmCFK4&sz=w600",
       "previewLink": "https://drive.google.com/file/d/1Cs_YtCjvY-Oxrdg-y0gJGVb2srGmCFK4/preview"
+    },
+    {
+      "id": "1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO",
+      "name": "Milo-Flow-Character-Reference-Optimized.html",
+      "mimeType": "text/html",
+      "webViewLink": "https://drive.google.com/file/d/1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO/preview"
     }
   ],
   "Logos and Others": [
+    {
+      "id": "1D_JmpMwUNt4EHCkaurSTVy4Xzv8LSXGO",
+      "name": "Logo_MSI_R07_052121_Logo_MSI_R074c_052121.png",
+      "mimeType": "image/png",
+      "webViewLink": "https://drive.google.com/file/d/1D_JmpMwUNt4EHCkaurSTVy4Xzv8LSXGO/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1D_JmpMwUNt4EHCkaurSTVy4Xzv8LSXGO&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1D_JmpMwUNt4EHCkaurSTVy4Xzv8LSXGO",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1D_JmpMwUNt4EHCkaurSTVy4Xzv8LSXGO&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1D_JmpMwUNt4EHCkaurSTVy4Xzv8LSXGO/preview"
+    },
+    {
+      "id": "13rR1xTmArAQpJRyEoXUCUdfNLAeqFat7",
+      "name": "Ideaing_Best_Product_R09.jpg",
+      "mimeType": "image/jpeg",
+      "webViewLink": "https://drive.google.com/file/d/13rR1xTmArAQpJRyEoXUCUdfNLAeqFat7/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=13rR1xTmArAQpJRyEoXUCUdfNLAeqFat7&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=13rR1xTmArAQpJRyEoXUCUdfNLAeqFat7",
+      "thumbnail": "https://drive.google.com/thumbnail?id=13rR1xTmArAQpJRyEoXUCUdfNLAeqFat7&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/13rR1xTmArAQpJRyEoXUCUdfNLAeqFat7/preview"
+    },
+    {
+      "id": "1_U-XX-sqXWM3Gwa1TylVGclqig3xzCtC",
+      "name": "FireEye_EMEA_Partner_Playbook_R05_012615.pdf",
+      "mimeType": "application/pdf",
+      "webViewLink": "https://drive.google.com/file/d/1_U-XX-sqXWM3Gwa1TylVGclqig3xzCtC/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1_U-XX-sqXWM3Gwa1TylVGclqig3xzCtC&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1_U-XX-sqXWM3Gwa1TylVGclqig3xzCtC",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1_U-XX-sqXWM3Gwa1TylVGclqig3xzCtC&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1_U-XX-sqXWM3Gwa1TylVGclqig3xzCtC/preview"
+    },
+    {
+      "id": "1hLpdB239Bo80Z8CilWOANewIgN20UNSs",
+      "name": "Branding Guide 2021-v9.pdf",
+      "mimeType": "application/pdf",
+      "webViewLink": "https://drive.google.com/file/d/1hLpdB239Bo80Z8CilWOANewIgN20UNSs/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1hLpdB239Bo80Z8CilWOANewIgN20UNSs&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1hLpdB239Bo80Z8CilWOANewIgN20UNSs",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1hLpdB239Bo80Z8CilWOANewIgN20UNSs&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1hLpdB239Bo80Z8CilWOANewIgN20UNSs/preview"
+    },
+    {
+      "id": "1hDyiIiMQjl6Q92YUJlr039en4anbZ5bT",
+      "name": "CNX-Brand-Guidelines-2020-12-01.pdf",
+      "mimeType": "application/pdf",
+      "webViewLink": "https://drive.google.com/file/d/1hDyiIiMQjl6Q92YUJlr039en4anbZ5bT/view",
+      "thumbnailLink": "https://drive.google.com/thumbnail?id=1hDyiIiMQjl6Q92YUJlr039en4anbZ5bT&sz=w600",
+      "directLink": "https://drive.google.com/uc?export=view&id=1hDyiIiMQjl6Q92YUJlr039en4anbZ5bT",
+      "thumbnail": "https://drive.google.com/thumbnail?id=1hDyiIiMQjl6Q92YUJlr039en4anbZ5bT&sz=w600",
+      "previewLink": "https://drive.google.com/file/d/1hDyiIiMQjl6Q92YUJlr039en4anbZ5bT/preview"
+    },
     {
       "id": "1qpQbX4AeoyWPkTq3aLnUDz2mPcKrGIo8",
       "name": "optioner_logo_R02_060220-01.png",
