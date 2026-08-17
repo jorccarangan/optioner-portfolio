@@ -1,61 +1,35 @@
-# Optioner.Design — Portfolio
-© 2026 Optioner.Design — All Rights Reserved. AI Generated.
+# OPTIONER.DESIGN Portfolio
+Live: https://jorccarangan.github.io/optioner-portfolio/Index.html
 
-Live site will be: `https://jorccarangan.github.io/optioner-portfolio/`
+## GitHub Pages Setup
+1. Upload all files to repo: jorccarangan/optioner-portfolio
+2. Settings > Pages > Source: main branch / root
+3. URL will be https://jorccarangan.github.io/optioner-portfolio/Index.html (capital I supported, lowercase also works)
 
-## What's Inside (Final)
+## Drive Structure Fix - AI Branding
+The 2 files were in root folder:
+- Milo-Flow-Character-Reference-Optimized.html (1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO)
+- Kip-360-Character-Sheet-Optimized.html (1Cs_YtCjvY-Oxrdg-y0gJGVb2srGmCFK4)
 
-- **index.html** (102KB) — Main portfolio with:
-  - Purple O logo only (header + footer unified)
-  - Hero: "Your portfolio now features Milo Flow and Kip 360 — master prompts for consistent 360° character branding."
-  - Featured AI Character Branding: Milo Flow + Kip 360 with iframe previews
-  - Filter: All | AI Character | Branding | Video | Packaging/UI
-  - Footer: OPTIONER.DESIGN / AWESOME CREATIVE DESIGN / © 2026 — All Rights Reserved / AI Generated
+MANUAL STEP (Drive API write not available in this session):
+1. Go to https://drive.google.com/drive/folders/0B4XiMaSxk5Uca1FnX1B6LVNhRUk
+2. Create folder named 0_AI_Branding
+3. Move the 2 files above into that folder
+4. Copy its new folder ID and paste into js/drive-config.js:
+   "AI Branding": "NEW_FOLDER_ID"
+5. Commit to GitHub - auto-sync will then work
 
-- **Milo-Flow-Character-Reference-optimized.html** (6.6MB, was 17.7MB) — Optimized, no gap between Studio Asset bar and Optioner footer
-- **Kip-360-Character-Sheet-optimized.html** (0.79MB, was 12.1MB) — Optimized, no gap
+Folder IDs currently:
+- eBlast: 1qulzzVkFPxs2o3hOjezP3jWUEwJEmbwo
+- Packaging: 1jgSGkRhB6nffs1ICKA57cS51lZzmZ45D
+- Video and Animation: 1jneSO_P7JRl7yXS30bNNRm17ZzyONrJc
+- Social Media Posting: 1VM6PP5qaM9BR1-wjYmnG82QbspNaV8Ml
+- UI/UX: 1B49rUqO1XJ73M9b5wL988GHwMC-Ex4q_
+- AI Branding: (create new)
 
-All pages use only your attached purple geometric circle logo (no white space gap).
-
-## How to Upload to GitHub Pages (Step by Step)
-
-### Step 1: Create GitHub account & repo
-1. Go to https://github.com → Sign up / Log in
-2. Click top-right `+` → **New repository**
-3. Name: `optioner-portfolio` (must be exactly this if you want `Jorccarangan.github.io/optioner-portfolio/`)
-4. Set to **Public** (required for free Pages)
-5. Check **Add a README file** → Click **Create repository**
-
-### Step 2: Upload your final files
-1. In your new repo, click **Add file** → **Upload files**
-2. Drag and drop these 3 files from this chat (download them first):
-   - `index.html`
-   - `Milo-Flow-Character-Reference-optimized.html`
-   - `Kip-360-Character-Sheet-optimized.html`
-   - (Optional: also upload this README.md)
-3. Click **Commit changes** → **Commit directly to main branch**
-
-*Tip: Files are large (6.6MB). GitHub allows up to 25MB per file on web upload — you're good. If upload stalls, use GitHub Desktop.*
-
-### Step 3: Enable GitHub Pages
-1. In repo → **Settings** (top menu)
-2. Left sidebar → **Pages**
-3. Under **Build and deployment**:
-   - Source: **Deploy from a branch**
-   - Branch: **main** / **/ (root)** → Save
-4. Wait 1-2 minutes → refresh page → you'll see: "Your site is live at https://jorccarangan.github.io/optioner-portfolio/"
-
-### Step 4: Test
-- Open your live link
-- Click AI Character filter → should show only Milo & Kip
-- Click Open Full Page on featured cards → should open Milo/Kip with purple O footer and no white gap
-- Check footer on all pages shows your purple O logo + OPTIONER.DESIGN AWESOME CREATIVE DESIGN
-
-### Updating later
-- To change text, edit `index.html` locally → upload again → commit → site auto-updates in ~30 seconds.
-
-### Optional: Custom domain
-If you own optioner.design, in Pages settings add custom domain → follow DNS instructions.
-
----
-© 2026 Optioner.Design — All Rights Reserved. AI Generated. AI Master Prompt • Character Branding
+## Features
+- 8 tabs: eBlast, Packaging, Video and Animation, Social Media Posting, Amazon Pages, UI/UX, AI Branding, Logos and Others
+- 300x300 thumbnails
+- Carousel with dots
+- Purple theme #6A1E5E matching logo
+- Transparent logo + favicons + OG image
