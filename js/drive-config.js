@@ -1,0 +1,3 @@
+const DRIVE_CONFIG={apiKey:"",rootFolderId:"0B4XiMaSxk5Uca1FnX1B6LVNhRUk",folders:{"eBlast":"1qulzzVkFPxs2o3hOjezP3jWUEwJEmbwo","Packaging":"1jgSGkRhB6nffs1ICKA57cS51lZzmZ45D","Video and Animation":"1jneSO_P7JRl7yXS30bNNRm17ZzyONrJc","Social Media Posting":"1VM6PP5qaM9BR1-wjYmnG82QbspNaV8Ml","Amazon Pages":"","UI/UX":"1B49rUqO1XJ73M9b5wL988GHwMC-Ex4q_","AI Branding":"","Logos and Others":""},categories:["eBlast","Packaging","Video and Animation","Social Media Posting","Amazon Pages","UI/UX","AI Branding","Logos and Others"]};
+// Live URL: https://jorccarangan.github.io/optioner-portfolio/Index.html
+const GITHUB_LIVE_URL = "https://jorccarangan.github.io/optioner-portfolio/Index.html";
