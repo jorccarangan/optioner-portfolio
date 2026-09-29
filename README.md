@@ -17,7 +17,7 @@ Folder IDs currently:
 - Video and Animation: 1jneSO_P7JRl7yXS30bNNRm17ZzyONrJc
 - Social Media Posting: 1VM6PP5qaM9BR1-wjYmnG82QbspNaV8Ml
 - UI/UX: 1B49rUqO1XJ73M9b5wL988GHwMC-Ex4q_
-- AI Branding: (create new)
+- AI Branding: 10z-n2_sX50h9L9QjUK9Yh80uik3MGaoD
 
 ## Features
 - 8 tabs: eBlast, Packaging, Video and Animation, Social Media Posting, Amazon Pages, UI/UX, AI Branding, Logos and Others
