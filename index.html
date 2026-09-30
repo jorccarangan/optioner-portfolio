@@ -1,51 +1,242 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>OPTIONER.DESIGN — OPTIONER PORTFOLIO</title>
-<link rel="canonical" href="https://jorccarangan.github.io/optioner-portfolio/Index.html">
-<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700;900&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-<script src="https://cdn.tailwindcss.com"></script>
+<title>OPTIONER.MULTIMEDIA — Awesome Creative Design</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@500;700&display=swap" rel="stylesheet">
 <style>
-body{background:#050507;color:#ffffff;font-family:'Inter',sans-serif}
-.titillium-bold{font-family:'Titillium Web',sans-serif;font-weight:700;letter-spacing:-0.02em}
-.titillium-black{font-family:'Titillium Web',sans-serif;font-weight:900;line-height:0.9;letter-spacing:-0.03em}
-.gradient-ships{background:linear-gradient(90deg,#6A1E5E,#A855F7 35%,#FF6A00 75%,#FFB86C);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.tab{padding:9px 18px;border-radius:999px;border:1px solid rgba(255,255,255,0.1);background:#131316;color:rgba(255,255,255,0.6);font-size:13px;white-space:nowrap;cursor:pointer}
-.tab.active{background:white;color:black;font-weight:700}
-.thumb{aspect-ratio:1;border-radius:16px;overflow:hidden;background:#111113;border:1px solid rgba(255,255,255,0.08);position:relative;cursor:pointer}
-.thumb img{width:100%;height:100%;object-fit:cover}
-.dot{width:8px;height:8px;border-radius:999px;background:rgba(255,255,255,0.25)}
-.dot.active{width:28px;background:#6A1E5E}
+:root{ --bg:#050507; --bg-card:#0a0a0c; --text:#ffffff; --text-sec:#8a8a8e; --border:rgba(255,255,255,0.08); --border-strong:rgba(255,255,255,0.14); }
+[data-theme="light"]{ --bg:#f5f5f3; --bg-card:#ffffff; --text:#0a0a0c; --text-sec:#6b6b6f; --border:rgba(0,0,0,0.08); --border-strong:rgba(0,0,0,0.14); }
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:'Titillium Web',sans-serif;font-weight:500;overflow-x:hidden;transition:background 0.3s,color 0.3s}
+a{color:inherit;text-decoration:none}
+.header{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--border);backdrop-filter:blur(12px);}
+.header-inner{max-width:1600px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo-img{width:44px;height:44px;border-radius:50%;object-fit:cover;background:#5e1a5e}
+.logo-text{line-height:1}
+.logo-title{font-weight:700;font-size:20px;letter-spacing:-0.02em;white-space:nowrap}
+.logo-sub{font-weight:700;font-size:9px;letter-spacing:0.28em;text-transform:uppercase;opacity:0.7;margin-top:2px}
+.header-actions{display:flex;align-items:center;gap:8px}
+.btn{font-family:'Titillium Web',sans-serif;font-weight:700;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;padding:10px 18px;border-radius:999px;border:1px solid var(--border-strong);background:transparent;color:var(--text);cursor:pointer;transition:all 0.2s;white-space:nowrap}
+.btn:hover{background:var(--text);color:var(--bg)}
+.btn-primary{background:var(--text);color:var(--bg);border-color:var(--text)}
+.btn-primary:hover{opacity:0.85}
+.nav-wrap{position:sticky;top:73px;z-index:40;background:var(--bg);border-bottom:1px solid var(--border);}
+.nav-scroll{display:flex;gap:8px;overflow-x:auto;padding:12px 24px;scrollbar-width:none;-ms-overflow-style:none;max-width:1600px;margin:0 auto;align-items:center}
+.nav-scroll::-webkit-scrollbar{display:none}
+.nav-pill{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border-radius:999px;border:1px solid var(--border-strong);font-weight:700;font-size:11px;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;white-space:nowrap;transition:all 0.2s;flex-shrink:0}
+.nav-pill:hover{background:var(--bg-card);border-color:var(--text)}
+.nav-pill.active{background:var(--text);color:var(--bg);border-color:var(--text)}
+.nav-pill .count{background:rgba(128,128,128,0.18);padding:2px 7px;border-radius:999px;font-size:10px;min-width:20px;text-align:center}
+.nav-pill.active .count{background:rgba(0,0,0,0.12);color:inherit}
+[data-theme="light"] .nav-pill.active .count{background:rgba(0,0,0,0.08)}
+.hero{max-width:1600px;margin:0 auto;padding:48px 24px 32px;display:grid;grid-template-columns:1.15fr 0.85fr;gap:48px;align-items:start}
+@media(max-width:1024px){.hero{grid-template-columns:1fr;gap:32px}}
+.hero-left{}
+.badge{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;border:1px solid var(--border-strong);font-weight:700;font-size:10px;letter-spacing:0.12em;text-transform:uppercase;background:var(--bg-card);margin-bottom:20px}
+.badge-dot{width:6px;height:6px;border-radius:50%;background:var(--text);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+.hero-title{font-weight:700;font-size:clamp(48px,8vw,112px);line-height:0.88;letter-spacing:-0.04em;text-transform:uppercase}
+.hero-title .dim{color:var(--text-sec)}
+.hero-desc{margin-top:24px;max-width:560px;font-weight:500;font-size:16px;line-height:1.5;color:var(--text-sec)}
+.hero-actions{margin-top:24px;display:flex;gap:10px;flex-wrap:wrap}
+.marquee{border-top:1px solid var(--border);border-bottom:1px solid var(--border);overflow:hidden;white-space:nowrap;padding:10px 0;background:var(--bg-card);}
+.marquee-track{display:inline-flex;animation:marquee 28s linear infinite;gap:32px}
+.marquee-item{font-weight:700;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;opacity:0.6}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.hero-right{}
+.right-card{border:1px solid var(--border);border-radius:16px;padding:28px;background:var(--bg-card)}
+.right-label{font-weight:700;font-size:11px;letter-spacing:0.22em;text-transform:uppercase;opacity:0.6}
+.right-title{font-weight:700;font-size:36px;letter-spacing:-0.02em;line-height:1.1;margin-top:6px}
+.stats{margin-top:40px;border-top:1px solid var(--border);padding-top:20px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.stat-num{font-weight:700;font-size:42px;line-height:1}
+.stat-label{font-weight:700;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;opacity:0.6;margin-top:4px}
+.main{max-width:1600px;margin:0 auto;padding:24px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:1024px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.grid{grid-template-columns:1fr}}
+.card{position:relative;border:1px solid var(--border);border-radius:12px;overflow:hidden;background:var(--bg-card);transition:transform 0.25s,border-color 0.25s;cursor:pointer}
+.card:hover{transform:translateY(-2px);border-color:var(--border-strong)}
+.card-media{aspect-ratio:4/3;position:relative;overflow:hidden;background:#111}
+.card-media img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s}
+.card:hover .card-media img{transform:scale(1.06)}
+.card-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,0.7) 0%,transparent 60%);opacity:0;transition:opacity 0.25s}
+.card:hover .card-overlay{opacity:1}
+.card-badge{position:absolute;top:10px;left:10px;padding:4px 8px;border-radius:999px;background:rgba(0,0,0,0.6);color:#fff;font-weight:700;font-size:9px;letter-spacing:0.08em;text-transform:uppercase;backdrop-filter:blur(6px)}
+.card-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+.card-play-circle{width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,0.92);display:flex;align-items:center;justify-content:center}
+.card-info{padding:12px 14px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.card-name{font-weight:700;font-size:12px;letter-spacing:0.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:75%}
+.card-cat{font-weight:700;font-size:9px;letter-spacing:0.1em;text-transform:uppercase;opacity:0.5;white-space:nowrap}
+.fallback{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;text-align:center}
+.fallback-letter{font-weight:700;font-size:32px;opacity:0.3}
+.fallback-name{font-weight:700;font-size:10px;margin-top:8px;opacity:0.5;letter-spacing:0.06em;text-transform:uppercase}
+.footer{max-width:1600px;margin:0 auto;padding:48px 24px;border-top:1px solid var(--border);display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;font-weight:700;opacity:0.6}
 </style>
 </head>
-<body>
-<header class="sticky top-0 z-40 bg-[#050507]/90 backdrop-blur border-b border-white/[0.06]">
-<div class="max-w- mx-auto px-6 md:px-10 h- flex items-center justify-between">
-<div class="flex items-center gap-3">
-<img src="assets/logo-transparent.png" class="w-8 h-8 rounded-full" onerror="this.src='https://via.placeholder.com/32/6A1E5E/fff?text=O'"/>
-<div class="leading-none">
-<div class="flex gap-1.5"><span class="titillium-bold text- text-white">OPTIONER</span><span class="titillium-bold text- text-[#8B5CF6]">DESIGN</span></div>
-<div class="text- tracking-[0.2em] uppercase text-white/50 mt-">AWESOME CREATIVE DESIGN</div>
+<body data-theme="dark">
+<div class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <img src="assets/optioner_logo_only_1080p.png" class="logo-img" alt="O">
+      <div class="logo-text">
+        <div class="logo-title">OPTIONER.MULTIMEDIA</div>
+        <div class="logo-sub">Awesome Creative Design</div>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button class="btn" id="themeBtn">☀ LIGHT</button>
+      <a class="btn" href="https://drive.google.com/drive/folders/1OpuuTJFL5Rr-QGrOz_KZMXdUFHo1SqEg" target="_blank">DRIVE ↗</a>
+      <a class="btn btn-primary" href="https://github.com/jorccarangan" target="_blank">GITHUB</a>
+    </div>
+  </div>
 </div>
+<div class="nav-wrap">
+  <div class="nav-scroll" id="navScroll"></div>
 </div>
-<div class="text- text-white/40">Titillium-Bold • 92 assets</div>
+<div class="hero">
+  <div class="hero-left">
+    <div class="badge"><span class="badge-dot"></span> FEATURED — AI MASTER PROMPT</div>
+    <div style="font-weight:700;font-size:10px;letter-spacing:0.18em;text-transform:uppercase;opacity:0.4;margin-left:8px;display:inline-block">TITILLIUM BOLD • 500 / 700</div>
+    <h1 class="hero-title">DESIGN THAT<br>SHIPS.<br><span class="dim">BRAND,<br>PACKAGING,<br>UI/UX,<br>MOTION & AI<br>SYSTEMS.</span></h1>
+    <p class="hero-desc">Curated archive of brand, packaging, UI/UX, motion & AI systems — shipped for real businesses. I'm Jorc Carangan — Optioner Multimedia Services. Featured AI Google Flow Ready Branding — Milo Flow and Kip 360.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#grid">VIEW WORK ↓</a>
+      <a class="btn" href="Kip-360-Character-Sheet-Optimized.html" target="_blank">KIP-360 OPEN →</a>
+      <a class="btn" href="Milo-Flow-Character-Reference-Optimized.html" target="_blank">MILO-FLOW OPEN →</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="right-card">
+      <div class="right-label">Selected Design Works</div>
+      <div class="right-title">2014 — 2026</div>
+      <div class="stats">
+        <div><div class="stat-num">92</div><div class="stat-label">/ASSET</div></div>
+        <div><div class="stat-num">12</div><div class="stat-label">/YEARS</div></div>
+        <div><div class="stat-num">8</div><div class="stat-label">/CATEGORY</div></div>
+      </div>
+      <div style="margin-top:20px;font-weight:500;font-size:12px;opacity:0.6;line-height:1.4">I'm Jorc Carangan — Optioner Multimedia — building brand systems that ship.</div>
+    </div>
+  </div>
 </div>
-<div class="border-t border-white/[0.05]"><div class="max-w- mx-auto px-6 md:px-10 overflow-x-auto"><div id="tabs" class="flex gap-2 py-3"></div></div></div>
-</header>
-<main class="max-w- mx-auto px-6 md:px-10 py-12">
-<h1 class="titillium-black text- md:text- text-white">Design that <span class="gradient-ships">ships.</span><br>Brand, packaging,<br>UI/UX & AI<br>characters.</h1>
-<p class="mt-6 text- leading-[1.7] text-white/60 max-w-">I'm <b class="text-white">Jorc Carangan</b> — <b class="text-white">Optioner Multimedia Services</b>. Check out my features AI <span class="text-[#A855F7] font-semibold">GoogleFlow Ready Branding</span> here - <b class="text-white">Milo Flow</b> and <b class="text-white">Kip 360</b>.</p>
-<div id="grid" class="grid grid-cols-2 md:grid-cols-4 gap-5 mt-10"></div>
-</main>
+<div class="marquee"><div class="marquee-track" id="marqueeTrack"></div></div>
+<div class="main">
+  <div class="grid" id="grid"></div>
+</div>
+<div class="footer">
+  <div>© 2014-2026 OPTIONER.MULTIMEDIA — AWESOME CREATIVE DESIGN — JORC CARANGAN</div>
+  <div>READY FOR GITHUB — jorccarangan.github.io/optioner-portfolio</div>
+</div>
 <script>
-const portfolioData = { /* PASTE YOUR portfolio_updated.json HERE - 92 files */ };
-const CATS=["eBlast","Packaging","Video and Animation","Social Media Posting","Amazon Pages","UI/UX","AI Branding","Logos and Others"];
-let curCat=CATS[0];
-function renderTabs(){document.getElementById('tabs').innerHTML=CATS.map(c=>`<button class="tab ${c===curCat?'active':''}" onclick="curCat='${c}';render()">${c} ${(portfolioData[c]||[]).length}</button>`).join('');}
-function render(){const items=portfolioData[curCat]||[];document.getElementById('grid').innerHTML=items.map(it=>`<div class="thumb"><img src="https://drive.google.com/thumbnail?id=${it.id}&sz=w600"><div class="absolute bottom-0 p-2 text- bg-black/60 w-full truncate text-white">${it.name}</div></div>`).join('');}
-renderTabs();render();
+const portfolioData = {"root": {"id": "1OpuuTJFL5Rr-QGrOz_KZMXdUFHo1SqEg", "name": "OPTIONER PORTFOLIO", "driveLink": "https://drive.google.com/drive/folders/1OpuuTJFL5Rr-QGrOz_KZMXdUFHo1SqEg"}, "logo": {"text": "OPTIONER.MULTIMEDIA", "subtext": "Awesome Creative Design", "font": "Titillium Web Bold", "fontUrl": "https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700;900&display=swap"}, "navigation": [{"label": "OPTIONER PORTFOLIO", "type": "root"}, {"label": "eBlast", "key": "eblast"}, {"label": "Packaging", "key": "packaging"}, {"label": "Video and Animation", "key": "video"}, {"label": "Social Media Posting", "key": "social"}, {"label": "Amazon Pages", "key": "amazon"}, {"label": "UI/UX", "key": "uiux"}, {"label": "AI Branding", "key": "ai"}, {"label": "Logos and Others", "key": "logos"}], "categories": [{"key": "eblast", "name": "eBlast", "folderId": "1qulzzVkFPxs2o3hOjezP3jWUEwJEmbwo", "driveLink": "https://drive.google.com/drive/folders/1qulzzVkFPxs2o3hOjezP3jWUEwJEmbwo", "count": 8, "files": [{"name": "Early Black Friday_Newsletter_01_of_08_112022.jpg", "id": "12RaRaPy6n9jXmmuDQTm5lE17OoxlLfKO", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=12RaRaPy6n9jXmmuDQTm5lE17OoxlLfKO&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=12RaRaPy6n9jXmmuDQTm5lE17OoxlLfKO&sz=w1200", "viewLink": "https://drive.google.com/file/d/12RaRaPy6n9jXmmuDQTm5lE17OoxlLfKO/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=12RaRaPy6n9jXmmuDQTm5lE17OoxlLfKO"}, {"name": "Early Black Friday_Newsletter_03_of_08_112022.jpg", "id": "1oeyV2_-XvOax5KlIpqpLFdkV-56146cz", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1oeyV2_-XvOax5KlIpqpLFdkV-56146cz&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1oeyV2_-XvOax5KlIpqpLFdkV-56146cz&sz=w1200", "viewLink": "https://drive.google.com/file/d/1oeyV2_-XvOax5KlIpqpLFdkV-56146cz/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1oeyV2_-XvOax5KlIpqpLFdkV-56146cz"}, {"name": "Early-Black-Friday_Newsletter_04_of_08_112022.gif", "id": "1DygW0Blv5ptu7P2lpv-enxD4pDe26EbX", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1DygW0Blv5ptu7P2lpv-enxD4pDe26EbX&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1DygW0Blv5ptu7P2lpv-enxD4pDe26EbX&sz=w1200", "viewLink": "https://drive.google.com/file/d/1DygW0Blv5ptu7P2lpv-enxD4pDe26EbX/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1DygW0Blv5ptu7P2lpv-enxD4pDe26EbX"}, {"name": "Early Black Friday_Newsletter_08_of_08_112022.jpg", "id": "1yJB9irL7lHmpY_fTFCkQRN-UbzqoMVPP", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1yJB9irL7lHmpY_fTFCkQRN-UbzqoMVPP&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1yJB9irL7lHmpY_fTFCkQRN-UbzqoMVPP&sz=w1200", "viewLink": "https://drive.google.com/file/d/1yJB9irL7lHmpY_fTFCkQRN-UbzqoMVPP/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1yJB9irL7lHmpY_fTFCkQRN-UbzqoMVPP"}, {"name": "Early Black Friday_Newsletter_02_of_08_112022.jpg", "id": "1U-0E4uv7ZR1dpuS9c--t0X4a7j-g7QLj", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1U-0E4uv7ZR1dpuS9c--t0X4a7j-g7QLj&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1U-0E4uv7ZR1dpuS9c--t0X4a7j-g7QLj&sz=w1200", "viewLink": "https://drive.google.com/file/d/1U-0E4uv7ZR1dpuS9c--t0X4a7j-g7QLj/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1U-0E4uv7ZR1dpuS9c--t0X4a7j-g7QLj"}, {"name": "Welcome_Email_R02.png", "id": "1Sd_YIyfRZj_jwpWIpmQ2XsQ9Rv5mDkJd", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1Sd_YIyfRZj_jwpWIpmQ2XsQ9Rv5mDkJd&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1Sd_YIyfRZj_jwpWIpmQ2XsQ9Rv5mDkJd&sz=w1200", "viewLink": "https://drive.google.com/file/d/1Sd_YIyfRZj_jwpWIpmQ2XsQ9Rv5mDkJd/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1Sd_YIyfRZj_jwpWIpmQ2XsQ9Rv5mDkJd"}, {"name": "Technigadgets_Newsletter_R01_112420.jpg", "id": "1Dpsgps9Pp4UBEjw4EE68Yr9mkgqdsKTv", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1Dpsgps9Pp4UBEjw4EE68Yr9mkgqdsKTv&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1Dpsgps9Pp4UBEjw4EE68Yr9mkgqdsKTv&sz=w1200", "viewLink": "https://drive.google.com/file/d/1Dpsgps9Pp4UBEjw4EE68Yr9mkgqdsKTv/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1Dpsgps9Pp4UBEjw4EE68Yr9mkgqdsKTv"}, {"name": "10_Off_New_Titanium_Bands_Rev2_Newsletter_R01_102420.jpg", "id": "1lIT5yQCSaOOQyHeaAPGe_vSLdVI7Dii4", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1lIT5yQCSaOOQyHeaAPGe_vSLdVI7Dii4&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1lIT5yQCSaOOQyHeaAPGe_vSLdVI7Dii4&sz=w1200", "viewLink": "https://drive.google.com/file/d/1lIT5yQCSaOOQyHeaAPGe_vSLdVI7Dii4/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1lIT5yQCSaOOQyHeaAPGe_vSLdVI7Dii4"}]}, {"key": "packaging", "name": "Packaging", "folderId": "1jgSGkRhB6nffs1ICKA57cS51lZzmZ45D", "driveLink": "https://drive.google.com/drive/folders/1jgSGkRhB6nffs1ICKA57cS51lZzmZ45D", "count": 10, "files": [{"name": "LYF_NICSALT_BB_25MG_mockupbox.jpg", "id": "1XZlZfbdmsyKUPs58PRgSLg7NyIwzt1as", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1XZlZfbdmsyKUPs58PRgSLg7NyIwzt1as&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1XZlZfbdmsyKUPs58PRgSLg7NyIwzt1as&sz=w1200", "viewLink": "https://drive.google.com/file/d/1XZlZfbdmsyKUPs58PRgSLg7NyIwzt1as/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1XZlZfbdmsyKUPs58PRgSLg7NyIwzt1as"}, {"name": "LYF_NICSALT_BB_25MG_mockupbox.png", "id": "1VRKghi70S7aDXxJ6x0e2KFBIViSxT7zR", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1VRKghi70S7aDXxJ6x0e2KFBIViSxT7zR&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1VRKghi70S7aDXxJ6x0e2KFBIViSxT7zR&sz=w1200", "viewLink": "https://drive.google.com/file/d/1VRKghi70S7aDXxJ6x0e2KFBIViSxT7zR/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1VRKghi70S7aDXxJ6x0e2KFBIViSxT7zR"}, {"name": "LYF_NICSALT_BB_45MG_mockupbox.png", "id": "1KbAXGqzM9nR-5pIUpAPbpG8zCunxnAYg", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1KbAXGqzM9nR-5pIUpAPbpG8zCunxnAYg&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1KbAXGqzM9nR-5pIUpAPbpG8zCunxnAYg&sz=w1200", "viewLink": "https://drive.google.com/file/d/1KbAXGqzM9nR-5pIUpAPbpG8zCunxnAYg/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1KbAXGqzM9nR-5pIUpAPbpG8zCunxnAYg"}, {"name": "LYF_NICSALT_BB_45MG_mockupbox.jpg", "id": "1LF8NKLRjCV62s1ByLWESiVP0Vy5dha9I", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1LF8NKLRjCV62s1ByLWESiVP0Vy5dha9I&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1LF8NKLRjCV62s1ByLWESiVP0Vy5dha9I&sz=w1200", "viewLink": "https://drive.google.com/file/d/1LF8NKLRjCV62s1ByLWESiVP0Vy5dha9I/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1LF8NKLRjCV62s1ByLWESiVP0Vy5dha9I"}, {"name": "PureLyf-PME-EX_PEN.png", "id": "1z4_tWWoCuPiZUQx9q4zPcRuvaTu6cJCR", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1z4_tWWoCuPiZUQx9q4zPcRuvaTu6cJCR&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1z4_tWWoCuPiZUQx9q4zPcRuvaTu6cJCR&sz=w1200", "viewLink": "https://drive.google.com/file/d/1z4_tWWoCuPiZUQx9q4zPcRuvaTu6cJCR/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1z4_tWWoCuPiZUQx9q4zPcRuvaTu6cJCR"}, {"name": "PureLyf-SN-EX_PEN.png", "id": "1H0m7WNm5GOJ3eFIPJLMfd6xx2zkQXTxj", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1H0m7WNm5GOJ3eFIPJLMfd6xx2zkQXTxj&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1H0m7WNm5GOJ3eFIPJLMfd6xx2zkQXTxj&sz=w1200", "viewLink": "https://drive.google.com/file/d/1H0m7WNm5GOJ3eFIPJLMfd6xx2zkQXTxj/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1H0m7WNm5GOJ3eFIPJLMfd6xx2zkQXTxj"}, {"name": "PureLyf-BLD-EX_PEN.png", "id": "15t0SJEGts3LTHvwzUqoY4m0Yh0gvoSoZ", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=15t0SJEGts3LTHvwzUqoY4m0Yh0gvoSoZ&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=15t0SJEGts3LTHvwzUqoY4m0Yh0gvoSoZ&sz=w1200", "viewLink": "https://drive.google.com/file/d/15t0SJEGts3LTHvwzUqoY4m0Yh0gvoSoZ/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=15t0SJEGts3LTHvwzUqoY4m0Yh0gvoSoZ"}, {"name": "PureLyf-SN-EX_PEN.jpg", "id": "1AtKQ-W1q_3rwdISDIG_LgfPz8kr6OwCY", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1AtKQ-W1q_3rwdISDIG_LgfPz8kr6OwCY&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1AtKQ-W1q_3rwdISDIG_LgfPz8kr6OwCY&sz=w1200", "viewLink": "https://drive.google.com/file/d/1AtKQ-W1q_3rwdISDIG_LgfPz8kr6OwCY/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1AtKQ-W1q_3rwdISDIG_LgfPz8kr6OwCY"}, {"name": "PureLyf-BLD-EX_PEN.jpg", "id": "14bI-Ksa5_xVYxVkm3PFNF9TDS24X688K", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=14bI-Ksa5_xVYxVkm3PFNF9TDS24X688K&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=14bI-Ksa5_xVYxVkm3PFNF9TDS24X688K&sz=w1200", "viewLink": "https://drive.google.com/file/d/14bI-Ksa5_xVYxVkm3PFNF9TDS24X688K/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=14bI-Ksa5_xVYxVkm3PFNF9TDS24X688K"}, {"name": "PureLyf-PME-EX_PEN.jpg", "id": "1VdkIkzAgXtc0AqngYtPld-38BzdKXvbq", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1VdkIkzAgXtc0AqngYtPld-38BzdKXvbq&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1VdkIkzAgXtc0AqngYtPld-38BzdKXvbq&sz=w1200", "viewLink": "https://drive.google.com/file/d/1VdkIkzAgXtc0AqngYtPld-38BzdKXvbq/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1VdkIkzAgXtc0AqngYtPld-38BzdKXvbq"}]}, {"key": "video", "name": "Video and Animation", "folderId": "1jneSO_P7JRl7yXS30bNNRm17ZzyONrJc", "driveLink": "https://drive.google.com/drive/folders/1jneSO_P7JRl7yXS30bNNRm17ZzyONrJc", "count": 5, "files": [{"name": "146_BSA_Council_Video_R07.mp4", "id": "1C4-Xz32BiZtMpQJ9lcFK-LuSFSlFVV2M", "mimeType": "video/mp4", "thumbnail": "https://drive.google.com/thumbnail?id=1C4-Xz32BiZtMpQJ9lcFK-LuSFSlFVV2M&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1C4-Xz32BiZtMpQJ9lcFK-LuSFSlFVV2M&sz=w1200", "viewLink": "https://drive.google.com/file/d/1C4-Xz32BiZtMpQJ9lcFK-LuSFSlFVV2M/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1C4-Xz32BiZtMpQJ9lcFK-LuSFSlFVV2M"}, {"name": "Scouting_Council_R11_v02_1080p_071925.mp4", "id": "1opcFHlsoI7UBW88zRvA0DOJQjrhjoLq6", "mimeType": "video/mp4", "thumbnail": "https://drive.google.com/thumbnail?id=1opcFHlsoI7UBW88zRvA0DOJQjrhjoLq6&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1opcFHlsoI7UBW88zRvA0DOJQjrhjoLq6&sz=w1200", "viewLink": "https://drive.google.com/file/d/1opcFHlsoI7UBW88zRvA0DOJQjrhjoLq6/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1opcFHlsoI7UBW88zRvA0DOJQjrhjoLq6"}, {"name": "15_Innova_5610_Meta_AdVideo_R02_022525.mp4", "id": "18IYem3afZratUSfOc3I419L3to8pxURI", "mimeType": "video/mp4", "thumbnail": "https://drive.google.com/thumbnail?id=18IYem3afZratUSfOc3I419L3to8pxURI&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=18IYem3afZratUSfOc3I419L3to8pxURI&sz=w1200", "viewLink": "https://drive.google.com/file/d/18IYem3afZratUSfOc3I419L3to8pxURI/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=18IYem3afZratUSfOc3I419L3to8pxURI"}, {"name": "10_1000_Dongle_Video_R02.mp4", "id": "1hNBXm25LLHp5Cffj85DELekrrFMIeXUz", "mimeType": "video/mp4", "thumbnail": "https://drive.google.com/thumbnail?id=1hNBXm25LLHp5Cffj85DELekrrFMIeXUz&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1hNBXm25LLHp5Cffj85DELekrrFMIeXUz&sz=w1200", "viewLink": "https://drive.google.com/file/d/1hNBXm25LLHp5Cffj85DELekrrFMIeXUz/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1hNBXm25LLHp5Cffj85DELekrrFMIeXUz"}, {"name": "IMVU_Help_Center_Intro_Male_R10b_091814.mp4", "id": "1PTjuZQXXqXrzQZXqQj1bNtdovedm0twe", "mimeType": "video/mp4", "thumbnail": "https://drive.google.com/thumbnail?id=1PTjuZQXXqXrzQZXqQj1bNtdovedm0twe&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1PTjuZQXXqXrzQZXqQj1bNtdovedm0twe&sz=w1200", "viewLink": "https://drive.google.com/file/d/1PTjuZQXXqXrzQZXqQj1bNtdovedm0twe/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1PTjuZQXXqXrzQZXqQj1bNtdovedm0twe"}]}, {"key": "social", "name": "Social Media Posting", "folderId": "1VM6PP5qaM9BR1-wjYmnG82QbspNaV8Ml", "driveLink": "https://drive.google.com/drive/folders/1VM6PP5qaM9BR1-wjYmnG82QbspNaV8Ml", "count": 2, "files": [{"name": "4th_of_July_Newsletter_01_of_05_062823.jpg", "id": "1-W2Flb5ajadQvGoim-wVpS7Uhipli_Rr", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1-W2Flb5ajadQvGoim-wVpS7Uhipli_Rr&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1-W2Flb5ajadQvGoim-wVpS7Uhipli_Rr&sz=w1200", "viewLink": "https://drive.google.com/file/d/1-W2Flb5ajadQvGoim-wVpS7Uhipli_Rr/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1-W2Flb5ajadQvGoim-wVpS7Uhipli_Rr"}, {"name": "Engagement Rings Spotlight_Newsletter_01_of_05_062423.jpg", "id": "1vMMIFWepLcmo2AsQpXIxLa1I30WGj3ar", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1vMMIFWepLcmo2AsQpXIxLa1I30WGj3ar&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1vMMIFWepLcmo2AsQpXIxLa1I30WGj3ar&sz=w1200", "viewLink": "https://drive.google.com/file/d/1vMMIFWepLcmo2AsQpXIxLa1I30WGj3ar/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1vMMIFWepLcmo2AsQpXIxLa1I30WGj3ar"}], "subfolders": [{"name": "EMAIL", "id": "1wai60PBludfSPTM6jjS1ccrmI3rB8Bpj", "driveLink": "https://drive.google.com/drive/folders/1wai60PBludfSPTM6jjS1ccrmI3rB8Bpj", "files": [{"name": "Responsive.zip", "id": "19dMQZhp4Okq0kEdgFFCRAmILXZ0SJn23", "mimeType": "application/x-zip-compressed", "thumbnail": "https://drive.google.com/thumbnail?id=19dMQZhp4Okq0kEdgFFCRAmILXZ0SJn23&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=19dMQZhp4Okq0kEdgFFCRAmILXZ0SJn23&sz=w1200", "viewLink": "https://drive.google.com/file/d/19dMQZhp4Okq0kEdgFFCRAmILXZ0SJn23/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=19dMQZhp4Okq0kEdgFFCRAmILXZ0SJn23"}, {"name": "GD-296_Larson_Jewelers_Email_Banners_Cable_Chain_r02.png", "id": "1m8foaW-wUtQVp3wkj2PUP2SoNsQ3viQ2", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1m8foaW-wUtQVp3wkj2PUP2SoNsQ3viQ2&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1m8foaW-wUtQVp3wkj2PUP2SoNsQ3viQ2&sz=w1200", "viewLink": "https://drive.google.com/file/d/1m8foaW-wUtQVp3wkj2PUP2SoNsQ3viQ2/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1m8foaW-wUtQVp3wkj2PUP2SoNsQ3viQ2"}, {"name": "GD-296_Larson_Jewelers_Email_Banners_Diamond_Earring_r02.png", "id": "1KkpU-xLjPGkp2gK0Na95chROPT9uvrtL", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1KkpU-xLjPGkp2gK0Na95chROPT9uvrtL&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1KkpU-xLjPGkp2gK0Na95chROPT9uvrtL&sz=w1200", "viewLink": "https://drive.google.com/file/d/1KkpU-xLjPGkp2gK0Na95chROPT9uvrtL/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1KkpU-xLjPGkp2gK0Na95chROPT9uvrtL"}, {"name": "Womens_Tungsten_Rings_300x250_v02.jpg", "id": "1rJ5-nKx5ZWtCztx260FzeCKecJieLkkD", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1rJ5-nKx5ZWtCztx260FzeCKecJieLkkD&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1rJ5-nKx5ZWtCztx260FzeCKecJieLkkD&sz=w1200", "viewLink": "https://drive.google.com/file/d/1rJ5-nKx5ZWtCztx260FzeCKecJieLkkD/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1rJ5-nKx5ZWtCztx260FzeCKecJieLkkD"}, {"name": "Precious_Inlay_Newsletter_600px_r01_070523.gif", "id": "13qN_K4fAKB-8sA6Vf7LSHXU_RsvgOjr1", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=13qN_K4fAKB-8sA6Vf7LSHXU_RsvgOjr1&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=13qN_K4fAKB-8sA6Vf7LSHXU_RsvgOjr1&sz=w1200", "viewLink": "https://drive.google.com/file/d/13qN_K4fAKB-8sA6Vf7LSHXU_RsvgOjr1/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=13qN_K4fAKB-8sA6Vf7LSHXU_RsvgOjr1"}]}, {"name": "AI", "id": "1M7H-8kh9EGvmzdwTMG3gZpdfTxX1jfv5", "driveLink": "https://drive.google.com/drive/folders/1M7H-8kh9EGvmzdwTMG3gZpdfTxX1jfv5", "subfolders": [{"name": "META+GBA", "id": "1TlgQhMJ6QzzsYYR51m-kWeOdfjdFOb_R", "driveLink": "https://drive.google.com/drive/folders/1TlgQhMJ6QzzsYYR51m-kWeOdfjdFOb_R", "files": [{"name": "GD-146_Affordable_Rings_META_1_1_03_R01_051024.jpg", "id": "1NVXWbAKQuM2OHJVl1AzcHj6Bvy8e5cvE", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1NVXWbAKQuM2OHJVl1AzcHj6Bvy8e5cvE&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1NVXWbAKQuM2OHJVl1AzcHj6Bvy8e5cvE&sz=w1200", "viewLink": "https://drive.google.com/file/d/1NVXWbAKQuM2OHJVl1AzcHj6Bvy8e5cvE/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1NVXWbAKQuM2OHJVl1AzcHj6Bvy8e5cvE"}, {"name": "GD-146_Affordable_Rings_GBA_1200x1200_03_R01_051024.jpg", "id": "1N9CZfVu-ds69a0RLUwGw09S0XodhbRE1", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1N9CZfVu-ds69a0RLUwGw09S0XodhbRE1&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1N9CZfVu-ds69a0RLUwGw09S0XodhbRE1&sz=w1200", "viewLink": "https://drive.google.com/file/d/1N9CZfVu-ds69a0RLUwGw09S0XodhbRE1/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1N9CZfVu-ds69a0RLUwGw09S0XodhbRE1"}, {"name": "GD-146_Affordable_Rings_GBA_1200x628_02_R01_051024.jpg", "id": "1GHWinqJrO8Z3gj78K09wF11LN0CH_XQZ", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1GHWinqJrO8Z3gj78K09wF11LN0CH_XQZ&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1GHWinqJrO8Z3gj78K09wF11LN0CH_XQZ&sz=w1200", "viewLink": "https://drive.google.com/file/d/1GHWinqJrO8Z3gj78K09wF11LN0CH_XQZ/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1GHWinqJrO8Z3gj78K09wF11LN0CH_XQZ"}]}]}, {"name": "META+GBA+Pinterest+IG", "id": "1LP3KwFW6v_Xc5D77IXHMY88WbKXtZjk9", "driveLink": "https://drive.google.com/drive/folders/1LP3KwFW6v_Xc5D77IXHMY88WbKXtZjk9", "subfolders": [{"name": "14K_Carat_Gold_with_Inlay", "id": "1yQc8q2YwPtZF5vyyASXyOM4JnN1oITLQ", "driveLink": "https://drive.google.com/drive/folders/1yQc8q2YwPtZF5vyyASXyOM4JnN1oITLQ", "files": [{"name": "GD-118_14KCaratGoldInlay_META_1_1_03_R02_051224.jpg", "id": "1XivwCSbuiFrXub3TgMuplMgXy0zpYFhe", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1XivwCSbuiFrXub3TgMuplMgXy0zpYFhe&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1XivwCSbuiFrXub3TgMuplMgXy0zpYFhe&sz=w1200", "viewLink": "https://drive.google.com/file/d/1XivwCSbuiFrXub3TgMuplMgXy0zpYFhe/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1XivwCSbuiFrXub3TgMuplMgXy0zpYFhe"}]}, {"name": "Black_Titanium", "id": "1zc1CPEsnCFNtwl0hu4KebOWPTI7WDRcE", "driveLink": "https://drive.google.com/drive/folders/1zc1CPEsnCFNtwl0hu4KebOWPTI7WDRcE", "files": []}, {"name": "Matching_Wedding_Rings", "id": "1DyRvw8k9SIpC6mXhupytAggg2wN_Lnzh", "driveLink": "https://drive.google.com/drive/folders/1DyRvw8k9SIpC6mXhupytAggg2wN_Lnzh", "files": []}]}, {"name": "Hero", "id": "1bb5Cx1tNrPY-_aMuJgJaYtauUL2sx1VN", "driveLink": "https://drive.google.com/drive/folders/1bb5Cx1tNrPY-_aMuJgJaYtauUL2sx1VN", "files": [{"name": "new_years_blow_out_main_hero_banner_R03_v03_122519.jpg", "id": "1OXYhYJlVM1xHBHPZlFM7Ws0oBL4QGYK-", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1OXYhYJlVM1xHBHPZlFM7Ws0oBL4QGYK-&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1OXYhYJlVM1xHBHPZlFM7Ws0oBL4QGYK-&sz=w1200", "viewLink": "https://drive.google.com/file/d/1OXYhYJlVM1xHBHPZlFM7Ws0oBL4QGYK-/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1OXYhYJlVM1xHBHPZlFM7Ws0oBL4QGYK-"}, {"name": "new_years_blow_out_main_hero_banner_R03_v02_122519.jpg", "id": "1OES9Q9-qOD6RKcZ49kHzxoT5gYdetJTQ", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1OES9Q9-qOD6RKcZ49kHzxoT5gYdetJTQ&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1OES9Q9-qOD6RKcZ49kHzxoT5gYdetJTQ&sz=w1200", "viewLink": "https://drive.google.com/file/d/1OES9Q9-qOD6RKcZ49kHzxoT5gYdetJTQ/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1OES9Q9-qOD6RKcZ49kHzxoT5gYdetJTQ"}]}, {"name": "Email_Flow", "id": "1J4PwB_CxtcEFECMrz7Qgg1IfMvQmU2Eu", "driveLink": "https://drive.google.com/drive/folders/1J4PwB_CxtcEFECMrz7Qgg1IfMvQmU2Eu", "files": [{"name": "Welcome_Email_R01.jpg", "id": "1Qd31iCKSWnCeTpYmlKPPzQS21Da3JNF1", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1Qd31iCKSWnCeTpYmlKPPzQS21Da3JNF1&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1Qd31iCKSWnCeTpYmlKPPzQS21Da3JNF1&sz=w1200", "viewLink": "https://drive.google.com/file/d/1Qd31iCKSWnCeTpYmlKPPzQS21Da3JNF1/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1Qd31iCKSWnCeTpYmlKPPzQS21Da3JNF1"}, {"name": "Confirm_Subscription.jpg", "id": "1XIvppWqalEBm21wYH54DGInk10ATLaS6", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1XIvppWqalEBm21wYH54DGInk10ATLaS6&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1XIvppWqalEBm21wYH54DGInk10ATLaS6&sz=w1200", "viewLink": "https://drive.google.com/file/d/1XIvppWqalEBm21wYH54DGInk10ATLaS6/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1XIvppWqalEBm21wYH54DGInk10ATLaS6"}, {"name": "You_Been_Subscribed_R01.jpg", "id": "1zic6k3TZN2aBQDnE1ZzsDK2WYJEnE3bF", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1zic6k3TZN2aBQDnE1ZzsDK2WYJEnE3bF&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1zic6k3TZN2aBQDnE1ZzsDK2WYJEnE3bF&sz=w1200", "viewLink": "https://drive.google.com/file/d/1zic6k3TZN2aBQDnE1ZzsDK2WYJEnE3bF/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1zic6k3TZN2aBQDnE1ZzsDK2WYJEnE3bF"}]}], "totalCountIncludingSubs": 47}, {"key": "amazon", "name": "Amazon Pages", "folderId": "1Z9xLwFR4liIay8cdDr_srXZuBkayYPhw", "driveLink": "https://drive.google.com/drive/folders/1Z9xLwFR4liIay8cdDr_srXZuBkayYPhw", "count": 8, "files": [{"name": "SA_Mobile.jpeg", "id": "1_FTRbJqR6QQm-uu2_MSoRb5LRDoLdZkU", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1_FTRbJqR6QQm-uu2_MSoRb5LRDoLdZkU&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1_FTRbJqR6QQm-uu2_MSoRb5LRDoLdZkU&sz=w1200", "viewLink": "https://drive.google.com/file/d/1_FTRbJqR6QQm-uu2_MSoRb5LRDoLdZkU/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1_FTRbJqR6QQm-uu2_MSoRb5LRDoLdZkU"}, {"name": "SA_Desktop.jpeg", "id": "1CeBIdtiuyZIs1tqtdPmiQWk1bd7BDwq3", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1CeBIdtiuyZIs1tqtdPmiQWk1bd7BDwq3&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1CeBIdtiuyZIs1tqtdPmiQWk1bd7BDwq3&sz=w1200", "viewLink": "https://drive.google.com/file/d/1CeBIdtiuyZIs1tqtdPmiQWk1bd7BDwq3/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1CeBIdtiuyZIs1tqtdPmiQWk1bd7BDwq3"}, {"name": "00_01_B0DSYVV5MH_v01_D_1464x600_R02_061125.jpg", "id": "1ZyPAV8LdJycHEJj1duIbSgfJcQY5SCU8", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1ZyPAV8LdJycHEJj1duIbSgfJcQY5SCU8&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1ZyPAV8LdJycHEJj1duIbSgfJcQY5SCU8&sz=w1200", "viewLink": "https://drive.google.com/file/d/1ZyPAV8LdJycHEJj1duIbSgfJcQY5SCU8/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1ZyPAV8LdJycHEJj1duIbSgfJcQY5SCU8"}, {"name": "00_03_B0DSYVV5MH_v01_D_1464x600_R02_061125.jpg", "id": "1otCWAeKNuI2B6AwQY0qFmZFlZm-oZSm1", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1otCWAeKNuI2B6AwQY0qFmZFlZm-oZSm1&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1otCWAeKNuI2B6AwQY0qFmZFlZm-oZSm1&sz=w1200", "viewLink": "https://drive.google.com/file/d/1otCWAeKNuI2B6AwQY0qFmZFlZm-oZSm1/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1otCWAeKNuI2B6AwQY0qFmZFlZm-oZSm1"}, {"name": "00_04_B0DSYVV5MH_v01_D_1464x600_R02_061125.jpg", "id": "1QGa-7HeZ_f-_4CCsTaG-axfvQI6_ZxOi", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1QGa-7HeZ_f-_4CCsTaG-axfvQI6_ZxOi&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1QGa-7HeZ_f-_4CCsTaG-axfvQI6_ZxOi&sz=w1200", "viewLink": "https://drive.google.com/file/d/1QGa-7HeZ_f-_4CCsTaG-axfvQI6_ZxOi/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1QGa-7HeZ_f-_4CCsTaG-axfvQI6_ZxOi"}, {"name": "00_02_B0DSYVV5MH_v01_D_1464x600_R02_061125.jpg", "id": "1fkI9tBW28sGG_eKVDc1X_QJupKtoRNXF", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1fkI9tBW28sGG_eKVDc1X_QJupKtoRNXF&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1fkI9tBW28sGG_eKVDc1X_QJupKtoRNXF&sz=w1200", "viewLink": "https://drive.google.com/file/d/1fkI9tBW28sGG_eKVDc1X_QJupKtoRNXF/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1fkI9tBW28sGG_eKVDc1X_QJupKtoRNXF"}, {"name": "01_B0DSYVV5MH_v01_D_1464x600_R02_061125.jpg", "id": "1OSEJ3Zldp8dhVeDC1vloxnKO1W5piUbN", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1OSEJ3Zldp8dhVeDC1vloxnKO1W5piUbN&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1OSEJ3Zldp8dhVeDC1vloxnKO1W5piUbN&sz=w1200", "viewLink": "https://drive.google.com/file/d/1OSEJ3Zldp8dhVeDC1vloxnKO1W5piUbN/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1OSEJ3Zldp8dhVeDC1vloxnKO1W5piUbN"}, {"name": "02_B0DSYVV5MH_v01_D_1464x600_R02_061125.jpg", "id": "1Mg4poqZiYfGidvHbyXSldY1QOt0Z6rer", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1Mg4poqZiYfGidvHbyXSldY1QOt0Z6rer&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1Mg4poqZiYfGidvHbyXSldY1QOt0Z6rer&sz=w1200", "viewLink": "https://drive.google.com/file/d/1Mg4poqZiYfGidvHbyXSldY1QOt0Z6rer/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1Mg4poqZiYfGidvHbyXSldY1QOt0Z6rer"}]}, {"key": "uiux", "name": "UI/UX", "folderId": "1B49rUqO1XJ73M9b5wL988GHwMC-Ex4q_", "driveLink": "https://drive.google.com/drive/folders/1B49rUqO1XJ73M9b5wL988GHwMC-Ex4q_", "count": 5, "files": [{"name": "Product_Page.jpg", "id": "1ekbLO8qPkGwvAiVVsr5mxR3kefanJ34r", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1ekbLO8qPkGwvAiVVsr5mxR3kefanJ34r&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1ekbLO8qPkGwvAiVVsr5mxR3kefanJ34r&sz=w1200", "viewLink": "https://drive.google.com/file/d/1ekbLO8qPkGwvAiVVsr5mxR3kefanJ34r/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1ekbLO8qPkGwvAiVVsr5mxR3kefanJ34r"}, {"name": "Main_Page.jpg", "id": "1imdy22YrAjtkM6hTF5mBz4BcA7GDg5JE", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1imdy22YrAjtkM6hTF5mBz4BcA7GDg5JE&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1imdy22YrAjtkM6hTF5mBz4BcA7GDg5JE&sz=w1200", "viewLink": "https://drive.google.com/file/d/1imdy22YrAjtkM6hTF5mBz4BcA7GDg5JE/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1imdy22YrAjtkM6hTF5mBz4BcA7GDg5JE"}, {"name": "slatherbutta.com.02.jpg", "id": "1ySyoEVqhT9IqwPw8VL04S5PHRS660won", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1ySyoEVqhT9IqwPw8VL04S5PHRS660won&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1ySyoEVqhT9IqwPw8VL04S5PHRS660won&sz=w1200", "viewLink": "https://drive.google.com/file/d/1ySyoEVqhT9IqwPw8VL04S5PHRS660won/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1ySyoEVqhT9IqwPw8VL04S5PHRS660won"}, {"name": "slatherbutta.com_01.jpg", "id": "1YfIqq2ddk7Hd7NhxUFDrlB8vge3n_e4-", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1YfIqq2ddk7Hd7NhxUFDrlB8vge3n_e4-&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1YfIqq2ddk7Hd7NhxUFDrlB8vge3n_e4-&sz=w1200", "viewLink": "https://drive.google.com/file/d/1YfIqq2ddk7Hd7NhxUFDrlB8vge3n_e4-/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1YfIqq2ddk7Hd7NhxUFDrlB8vge3n_e4-"}, {"name": "workspacedesign.concentrix.com_03.jpg", "id": "1L9rZvARTJBSoXRb_bGyw9VdiMFKDiX3w", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1L9rZvARTJBSoXRb_bGyw9VdiMFKDiX3w&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1L9rZvARTJBSoXRb_bGyw9VdiMFKDiX3w&sz=w1200", "viewLink": "https://drive.google.com/file/d/1L9rZvARTJBSoXRb_bGyw9VdiMFKDiX3w/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1L9rZvARTJBSoXRb_bGyw9VdiMFKDiX3w"}]}, {"key": "ai", "name": "AI Branding", "folderId": "10z-n2_sX50h9L9QjUK9Yh80uik3MGaoD", "driveLink": "https://drive.google.com/drive/folders/10z-n2_sX50h9L9QjUK9Yh80uik3MGaoD", "count": 2, "files": [{"name": "Kip-360-Character-Sheet-Optimized.html", "id": "1Cs_YtCjvY-Oxrdg-y0gJGVb2srGmCFK4", "mimeType": "text/html", "thumbnail": "https://drive.google.com/thumbnail?id=1Cs_YtCjvY-Oxrdg-y0gJGVb2srGmCFK4&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1Cs_YtCjvY-Oxrdg-y0gJGVb2srGmCFK4&sz=w1200", "viewLink": "https://drive.google.com/file/d/1Cs_YtCjvY-Oxrdg-y0gJGVb2srGmCFK4/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1Cs_YtCjvY-Oxrdg-y0gJGVb2srGmCFK4"}, {"name": "Milo-Flow-Character-Reference-Optimized.html", "id": "1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO", "mimeType": "text/html", "thumbnail": "https://drive.google.com/thumbnail?id=1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO&sz=w1200", "viewLink": "https://drive.google.com/file/d/1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1ynrZf_9WTrnJQvysgwV7eVdD9JEF0kaO"}]}, {"key": "logos", "name": "Logos and Others", "folderId": "1t9BQI8pe9XGTZJhWtoGi1MsKa29Yd2e8", "driveLink": "https://drive.google.com/drive/folders/1t9BQI8pe9XGTZJhWtoGi1MsKa29Yd2e8", "count": 7, "files": [{"name": "Branding Guide 2021-v9.pdf", "id": "1hLpdB239Bo80Z8CilWOANewIgN20UNSs", "mimeType": "application/pdf", "thumbnail": "https://drive.google.com/thumbnail?id=1hLpdB239Bo80Z8CilWOANewIgN20UNSs&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1hLpdB239Bo80Z8CilWOANewIgN20UNSs&sz=w1200", "viewLink": "https://drive.google.com/file/d/1hLpdB239Bo80Z8CilWOANewIgN20UNSs/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1hLpdB239Bo80Z8CilWOANewIgN20UNSs"}, {"name": "CNX-Brand-Guidelines-2020-12-01.pdf", "id": "1hDyiIiMQjl6Q92YUJlr039en4anbZ5bT", "mimeType": "application/pdf", "thumbnail": "https://drive.google.com/thumbnail?id=1hDyiIiMQjl6Q92YUJlr039en4anbZ5bT&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1hDyiIiMQjl6Q92YUJlr039en4anbZ5bT&sz=w1200", "viewLink": "https://drive.google.com/file/d/1hDyiIiMQjl6Q92YUJlr039en4anbZ5bT/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1hDyiIiMQjl6Q92YUJlr039en4anbZ5bT"}, {"name": "Logo_MSI_R07_052121_Logo_MSI_R074c_052121.png", "id": "1D_JmpMwUNt4EHCkaurSTVy4Xzv8LSXGO", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1D_JmpMwUNt4EHCkaurSTVy4Xzv8LSXGO&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1D_JmpMwUNt4EHCkaurSTVy4Xzv8LSXGO&sz=w1200", "viewLink": "https://drive.google.com/file/d/1D_JmpMwUNt4EHCkaurSTVy4Xzv8LSXGO/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1D_JmpMwUNt4EHCkaurSTVy4Xzv8LSXGO"}, {"name": "Ideaing_Best_Product_R09.jpg", "id": "13rR1xTmArAQpJRyEoXUCUdfNLAeqFat7", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=13rR1xTmArAQpJRyEoXUCUdfNLAeqFat7&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=13rR1xTmArAQpJRyEoXUCUdfNLAeqFat7&sz=w1200", "viewLink": "https://drive.google.com/file/d/13rR1xTmArAQpJRyEoXUCUdfNLAeqFat7/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=13rR1xTmArAQpJRyEoXUCUdfNLAeqFat7"}, {"name": "optioner.design_01.jpg", "id": "1rue--_6oOCcLJoVvEtHBapKrRWaPMr2I", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1rue--_6oOCcLJoVvEtHBapKrRWaPMr2I&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1rue--_6oOCcLJoVvEtHBapKrRWaPMr2I&sz=w1200", "viewLink": "https://drive.google.com/file/d/1rue--_6oOCcLJoVvEtHBapKrRWaPMr2I/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1rue--_6oOCcLJoVvEtHBapKrRWaPMr2I"}, {"name": "Purlyf_Delta8_1250X450_R02_110220.jpg", "id": "1xBwZwB8BI-TR6Cen18bFSK4YjqWjhOkg", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1xBwZwB8BI-TR6Cen18bFSK4YjqWjhOkg&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1xBwZwB8BI-TR6Cen18bFSK4YjqWjhOkg&sz=w1200", "viewLink": "https://drive.google.com/file/d/1xBwZwB8BI-TR6Cen18bFSK4YjqWjhOkg/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1xBwZwB8BI-TR6Cen18bFSK4YjqWjhOkg"}, {"name": "LYF_01_1250X450_R02c_103120.jpg", "id": "1K65_2yTU9MitPIxac9VsjBaI2dns7oH6", "mimeType": "image/jpeg", "thumbnail": "https://drive.google.com/thumbnail?id=1K65_2yTU9MitPIxac9VsjBaI2dns7oH6&sz=w600", "thumbnailLarge": "https://drive.google.com/thumbnail?id=1K65_2yTU9MitPIxac9VsjBaI2dns7oH6&sz=w1200", "viewLink": "https://drive.google.com/file/d/1K65_2yTU9MitPIxac9VsjBaI2dns7oH6/view?usp=drivesdk", "directDownload": "https://drive.google.com/uc?export=view&id=1K65_2yTU9MitPIxac9VsjBaI2dns7oH6"}]}]};
+const categories = portfolioData.categories;
+const navScroll = document.getElementById('navScroll');
+const grid = document.getElementById('grid');
+let activeKey = 'all';
+const totalCount = 92;
+const navItems = [
+  {key:'all', name:'OPTIONER PORTFOLIO', count: totalCount},
+  ...categories.map(c => {
+    let count = c.count;
+    if(c.key==='social') count = c.totalCountIncludingSubs || 47;
+    return {key:c.key, name:c.name, count}
+  })
+];
+function renderNav(){
+  navScroll.innerHTML = '';
+  navItems.forEach(item=>{
+    const btn = document.createElement('div');
+    btn.className = 'nav-pill' + (activeKey===item.key?' active':'');
+    btn.innerHTML = '<span>'+item.name+'</span><span class="count">'+item.count+'</span>';
+    btn.onclick = ()=>{ activeKey=item.key; renderNav(); renderGrid(); };
+    navScroll.appendChild(btn);
+  });
+}
+function flattenFiles(){
+  let all=[];
+  categories.forEach(cat=>{
+    cat.files.forEach(f=>{ all.push(Object.assign({}, f, {category:cat.name, catKey:cat.key})); });
+    if(cat.subfolders){
+      cat.subfolders.forEach(sub=>{
+        if(sub.files) sub.files.forEach(f=>{ all.push(Object.assign({}, f, {category:cat.name + ' / ' + sub.name, catKey:cat.key})); });
+        if(sub.subfolders) sub.subfolders.forEach(ss=>{
+          if(ss.files) ss.files.forEach(f=>{ all.push(Object.assign({}, f, {category:cat.name + ' / ' + ss.name, catKey:cat.key})); });
+        });
+      });
+    }
+  });
+  return all;
+}
+function driveUrls(id){
+  return [
+    'https://drive.google.com/thumbnail?id='+id+'&sz=w800',
+    'https://drive.google.com/uc?export=view&id='+id,
+    'https://lh3.googleusercontent.com/d/'+id
+  ];
+}
+function colorForKey(k){
+  const map={eblast:220,packaging:280,video:0,social:320,amazon:35,uiux:150,ai:180,logos:0};
+  return map[k]||200;
+}
+function createCard(file){
+  const card = document.createElement('div');
+  card.className='card';
+  const isVideo = file.mimeType && file.mimeType.indexOf('video')>-1;
+  const isPdf = file.mimeType && file.mimeType.indexOf('pdf')>-1;
+  const media = document.createElement('div');
+  media.className='card-media';
+  if(isVideo){
+    media.innerHTML = '<div class="fallback" style="background:#1a101a"><div class="card-play"><div class="card-play-circle">▶</div></div><div class="fallback-name">'+file.name+'</div></div><div class="card-badge">VIDEO</div>';
+  } else if(isPdf){
+    media.innerHTML = '<div class="fallback" style="background:#101a1a"><div class="fallback-letter">PDF</div><div class="fallback-name">'+file.name+'</div></div><div class="card-badge">PDF</div>';
+  } else {
+    const img = document.createElement('img');
+    img.loading='lazy';
+    img.referrerPolicy='no-referrer';
+    const urls = driveUrls(file.id);
+    let idx=0;
+    img.src = urls[0];
+    img.onerror = function(){
+      idx++; if(idx<urls.length) img.src=urls[idx];
+      else {
+        media.innerHTML = '<div class="fallback" style="background:hsl('+colorForKey(file.catKey)+' 40% 12%)"><div class="fallback-letter">'+file.name.charAt(0)+'</div><div class="fallback-name">'+file.name+'</div></div><div class="card-badge">'+file.category+'</div>';
+      }
+    };
+    media.appendChild(img);
+    const overlay = document.createElement('div'); overlay.className='card-overlay'; media.appendChild(overlay);
+    const badge = document.createElement('div'); badge.className='card-badge'; badge.textContent=file.category; media.appendChild(badge);
+  }
+  card.appendChild(media);
+  const info = document.createElement('div'); info.className='card-info';
+  info.innerHTML = '<div class="card-name" title="'+file.name+'">'+file.name+'</div><div class="card-cat">'+file.category.split(' / ')[0]+'</div>';
+  card.appendChild(info);
+  card.onclick = function(){ window.open(file.viewLink, '_blank'); };
+  return card;
+}
+function renderGrid(){
+  grid.innerHTML='';
+  let files = flattenFiles();
+  if(activeKey!=='all') files = files.filter(f=>f.catKey===activeKey);
+  files.forEach(f=>{ grid.appendChild(createCard(f)); });
+}
+const marqueeText = 'FEATURED — AI MASTER PROMPT CHARACTER BRANDING — OPTIONER PORTFOLIO — TITILLIUM BOLD 500 / 700 — SELECTED WORKS 2014-2026 — ';
+const track = document.getElementById('marqueeTrack');
+for(let i=0;i<6;i++){ const span=document.createElement('span'); span.className='marquee-item'; span.textContent=marqueeText; track.appendChild(span); }
+renderNav(); renderGrid();
+const themeBtn = document.getElementById('themeBtn');
+let theme = localStorage.getItem('optioner-theme') || 'dark';
+document.body.setAttribute('data-theme', theme);
+themeBtn.textContent = theme==='dark' ? '☀ LIGHT' : '● DARK';
+themeBtn.onclick = function(){
+  theme = theme==='dark' ? 'light' : 'dark';
+  document.body.setAttribute('data-theme', theme);
+  localStorage.setItem('optioner-theme', theme);
+  themeBtn.textContent = theme==='dark' ? '☀ LIGHT' : '● DARK';
+};
 </script>
 </body>
 </html>
